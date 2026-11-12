@@ -1,0 +1,4412 @@
+[
+  {
+    "id": 1,
+    "topic": 1,
+    "number": 1,
+    "question": "Konteyner təcrid üçün hansı nüvədən istifadə edir?",
+    "options": {
+      "A": "Hər konteynerə ayrılmış ayrıca OS nüvəsindən",
+      "B": "İstifadəçi brauzerinin əməliyyat sistemi nüvəsindən",
+      "C": "Host əməliyyat sisteminin nüvəsini paylaşaraq",
+      "D": "Yük balanslayıcısının əməliyyat sistemi nüvəsindən",
+      "E": "Hər sorğu üçün yüklənən yeni qonaq nüvəsindən"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 2,
+    "topic": 1,
+    "number": 2,
+    "question": "Availability Zone-un (AZ) əsas təyinatı nədir?",
+    "options": {
+      "A": "Virtual maşın şablonlarını seçmək",
+      "B": "Tətbiqin sorğu sayını ölçmək",
+      "C": "Resurs istifadəsini fakturaya çevirmək",
+      "D": "Nasazlıq təcridi üçün data mərkəzi qrupu",
+      "E": "İstifadəçi icazələrini yoxlamaq"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 3,
+    "topic": 1,
+    "number": 3,
+    "question": "Gecikməsi uyğun olan iki regiondan yalnız biri verilənlərin saxlanmasına dair hüquqi tələbi ödəyir. Region seçimində hansı meyar həlledici olmalıdır?",
+    "options": {
+      "A": "Data rezidentliyi tələbi",
+      "B": "İnstansiyaların cari sayı",
+      "C": "Hipervizorun tipi",
+      "D": "Konteynerin başlama sürəti",
+      "E": "CPU istifadə faizi"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 4,
+    "topic": 1,
+    "number": 4,
+    "question": "Auto-scaling qrupu CPU göstəricisinin təyin edilmiş həddi keçdiyini aşkarlayır. Tutumu artırmaq üçün hansı hərəkət gözlənilir?",
+    "options": {
+      "A": "İnstansiya sayını saxlayaraq faktura dövrünü dəyişmək",
+      "B": "Yalnız mövcud instansiyaların domen adlarını dəyişmək",
+      "C": "Mövcud instansiyalardan birini balanslayıcıdan çıxarmaq",
+      "D": "Yeni instansiya yaradıb balanslayıcının siyahısına əlavə etmək",
+      "E": "Metrikanı dəyişmədən xəbərdarlıq həddini yüksəltmək"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 5,
+    "topic": 1,
+    "number": 5,
+    "question": "Pay-as-you-go modelinin texniki əsasını hansı NIST xüsusiyyəti təşkil edir?",
+    "options": {
+      "A": "Ölçülən xidmət",
+      "B": "Tələb üzrə özünəxidmət",
+      "C": "Resurs hovuzlaşdırması",
+      "D": "Sürətli elastiklik",
+      "E": "Geniş şəbəkə çıxışı"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 6,
+    "topic": 1,
+    "number": 6,
+    "question": "İdarə olunan xidmətlərin vendor lock-in baxımından əsas trade-off-u nədir?",
+    "options": {
+      "A": "İnkişaf ləngiyir, provayder dəyişmə xərci yüksəlir",
+      "B": "Əməliyyat yükü artır, provayderə asılılıq yox olur",
+      "C": "İnkişaf sürətlənir, miqrasiya xərci avtomatik yox olur",
+      "D": "Portativlik artır, provayderə asılılıq avtomatik azalır",
+      "E": "İnkişaf sürətlənir, başqa provayderə keçid xərci yüksəlir"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 7,
+    "topic": 1,
+    "number": 7,
+    "question": "Resurslara standart şəbəkə mexanizmləri ilə müxtəlif cihazlardan çıxış hansı xüsusiyyətdir?",
+    "options": {
+      "A": "Tələb üzrə özünəxidmət",
+      "B": "Geniş şəbəkə çıxışı",
+      "C": "Resurs hovuzlaşdırması",
+      "D": "Sürətli elastiklik",
+      "E": "Ölçülən xidmət"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 8,
+    "topic": 1,
+    "number": 8,
+    "question": "Auto-scaling qurulmuş sistemdə xərcin həmişə optimal olacağı iddiası niyə düzgün deyil?",
+    "options": {
+      "A": "Auto-scaling istifadə ölçmələrini hesabdan çıxarır",
+      "B": "Səhv metrikaya və ya astanəyə əsaslanan auto-scaling xərci artıra bilər",
+      "C": "Auto-scaling region seçimini yalnız gecikməyə bağlayır",
+      "D": "Auto-scaling provayder dəyişmə xərcini aradan qaldırır",
+      "E": "Auto-scaling bütün instansiyaları sabit sayda saxlayır"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 9,
+    "topic": 1,
+    "number": 9,
+    "question": "Sabit, proqnozlaşdırılan və yüksək həcmli yük üçün uzunmüddətli xərc müqayisəsində hansı nəticə mümkündür?",
+    "options": {
+      "A": "Yüksək istifadə xərc müqayisəsini mənasız edir",
+      "B": "On-premises modelində uzunmüddətli xərc hesablana bilməz",
+      "C": "Pay-as-you-go public cloud iş yükündən asılı olmayaraq ucuzdur",
+      "D": "Sabit yükdə on-premises/reserved ucuz ola bilər",
+      "E": "Sabit yükdə ilkin kapital xərci avtomatik yox olur"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 10,
+    "topic": 1,
+    "number": 10,
+    "question": "İctimai buludda Type 1 hipervizora üstünlük verilməsinin səbəbi hansıdır?",
+    "options": {
+      "A": "Hər VM-i host nüvəsini paylaşan konteynerə çevirmək",
+      "B": "Host OS itkisini və hücum səthini aradan qaldırır",
+      "C": "Hər tətbiqə fiziki maşını birbaşa idarə etmək imkanı vermək",
+      "D": "Fiziki resursların VM-lər arasında ayrılmasını dayandırmaq",
+      "E": "Hipervizoru adi host əməliyyat sistemindən asılı etmək"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 11,
+    "topic": 1,
+    "number": 11,
+    "question": "Type 1 hipervizor harada işləyir?",
+    "options": {
+      "A": "Qonaq əməliyyat sisteminin tətbiq qatında",
+      "B": "Adi host əməliyyat sisteminin üzərində",
+      "C": "Hesablaşdırma mühərrikinin əlavəsi kimi",
+      "D": "Brauzerin icra mühitinin daxilində",
+      "E": "Birbaşa aparat üzərində, host OS olmadan"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 12,
+    "topic": 1,
+    "number": 12,
+    "question": "Çoxsaylı instansiyaya keçdikdə monitorinqə ehtiyacın artmasının əsas səbəbi nədir?",
+    "options": {
+      "A": "Yeni instansiyalar üçün hüquqi region seçimi dəyişir",
+      "B": "Tətbiqin giriş icazələrinin məsuliyyəti provayderə keçir",
+      "C": "Trafik bölgüsünü monitorinq sistemi özü həyata keçirir",
+      "D": "Oxuma replikası bütün yazma əməliyyatlarını qəbul edir",
+      "E": "Problemi əl ilə tapmaq çətinləşir"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 13,
+    "topic": 1,
+    "number": 13,
+    "question": "Control plane ilə data plane-in ayrılmasının əsas faydası nədir?",
+    "options": {
+      "A": "Mövcud iş yükləri hər API gecikməsində yenidən yaradılır",
+      "B": "Resursların ayrılması üçün IAM yoxlaması ləğv edilir",
+      "C": "Control plane problemi mövcud işləyən iş yüklərini dərhal dayandırmır",
+      "D": "İdarəetmə sorğuları ilə tətbiq trafiki eyni sorğuya çevrilir",
+      "E": "Tətbiq trafikinin ölçülməsinə ehtiyac aradan qalxır"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 14,
+    "topic": 1,
+    "number": 14,
+    "question": "Oxuma replikasının əsas bazaya faydası nədir?",
+    "options": {
+      "A": "Oxuma yükünü qəbul edib əsas bazanı qoruyur",
+      "B": "İstifadəçinin DNS sorğusunu həll edir",
+      "C": "Yazma əməliyyatları üçün əsas bazanı əvəz edir",
+      "D": "İstifadəyə görə bulud fakturasını yaradır",
+      "E": "Tətbiq instansiyaları üçün CPU ayırır"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 15,
+    "topic": 1,
+    "number": 15,
+    "question": "Bir xidmət yük artdıqda instansiya sayını avtomatik artırır, yük azaldıqda isə avtomatik azaldır. Bu davranışı ən dəqiq hansı xüsusiyyət ifadə edir?",
+    "options": {
+      "A": "Resurs hovuzlaşdırması",
+      "B": "Tələb üzrə özünəxidmət",
+      "C": "Sürətli elastiklik",
+      "D": "Geniş şəbəkə çıxışı",
+      "E": "Ölçülən xidmət"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 16,
+    "topic": 1,
+    "number": 16,
+    "question": "Konteynerin VM-dən daha sürətli başlaması nə ilə izah olunur?",
+    "options": {
+      "A": "Ayrıca OS yükləmir, host nüvəsini paylaşır",
+      "B": "Hər konteyner üçün yeni OS nüvəsi yaratması ilə",
+      "C": "Hər konteynerin ayrıca fiziki server tələb etməsi ilə",
+      "D": "Host nüvəsindən istifadəni dayandırması ilə",
+      "E": "İşə düşmək üçün bütün şəbəkə qatını əvəz etməsi ilə"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 17,
+    "topic": 1,
+    "number": 17,
+    "question": "Virtuallaşdırmanın əsas funksiyası hansıdır?",
+    "options": {
+      "A": "Sorğunu domen adına əsasən ünvanlandırmaq",
+      "B": "Fiziki serveri məntiqi hissələrə bölmək",
+      "C": "İstifadə göstəricilərindən faktura hazırlamaq",
+      "D": "Gələn trafiki tətbiq serverləri arasında bölmək",
+      "E": "İstifadəçinin giriş icazəsini yoxlamaq"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 18,
+    "topic": 1,
+    "number": 18,
+    "question": "Qlobal yüksək trafikli sistemdə nasazlığa münasibət necə olmalıdır?",
+    "options": {
+      "A": "Nasazlıq ehtimalını bulud seçimi ilə yox saymaq",
+      "B": "Xərc nəzarətini yalnız fiziki server alışına aid etmək",
+      "C": "Nasazlığı labüd qəbul edib dizaynla idarə etmək, multi-region qurmaq",
+      "D": "Bütün xidmətləri tək AZ-da cəmləyib monitorinqi azaltmaq",
+      "E": "İnsident idarəetməsini son istifadəçilərə ötürmək"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 19,
+    "topic": 1,
+    "number": 19,
+    "question": "Open-source əsaslı özünüidarə portativlik verir. Bunun müqabilində müştəri hansı yükü qəbul edir?",
+    "options": {
+      "A": "Fiziki data mərkəzinin provayderə aid təhlükəsizliyini",
+      "B": "Bütün konfiqurasiya işlərini provayderə ötürməyi",
+      "C": "Əməliyyat yükünü (operational burden) öz üzərinə götürür",
+      "D": "Tətbiqi yalnız bir provayderdə işlətmək öhdəliyini",
+      "E": "İstifadəyə görə ölçmə və ödənişdən imtina etməyi"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 20,
+    "topic": 1,
+    "number": 20,
+    "question": "Yeni SaaS layihəsində tələbat naməlumdur, ilkin avadanlıq yatırımı və saxlanılmalı lokal infrastruktur yoxdur. Mühazirədə belə başlanğıc üçün hansı deployment modeli uyğun göstərilir?",
+    "options": {
+      "A": "Public cloud",
+      "B": "On-premises",
+      "C": "Private cloud",
+      "D": "Əvvəlcədən alınmış tək fiziki server",
+      "E": "Lokal və public mühitli hybrid cloud"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 21,
+    "topic": 1,
+    "number": 21,
+    "question": "Ölçmə axınında toplanmış resurs istifadəsi hansı komponentə ötürülür?",
+    "options": {
+      "A": "Qonaq əməliyyat sistemi yükləyicisinə",
+      "B": "Virtual maşınların şablon anbarına",
+      "C": "Domen adları xidmətinə",
+      "D": "Hesablaşdırma mühərrikinə (billing engine)",
+      "E": "Tətbiq sorğularının yük balanslayıcısına"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 22,
+    "topic": 1,
+    "number": 22,
+    "question": "Opex hansı ödəniş yanaşmasını bildirir?",
+    "options": {
+      "A": "Server binasına əvvəlcədən kapital yatırımı",
+      "B": "Uzunmüddətli fiziki avadanlığın alınması",
+      "C": "Şirkətə məxsus server parkının ilkin alınması",
+      "D": "İstifadə etdikcə ödənilən cari əməliyyat xərci",
+      "E": "Data mərkəzi üçün torpağın alınması"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 23,
+    "topic": 1,
+    "number": 23,
+    "question": "Buludun elektrik şəbəkəsinə bənzədilməsinin hansı məhdudiyyəti var?",
+    "options": {
+      "A": "Hesablama resurslarının qiyməti növündən asılı deyil",
+      "B": "CPU və GPU instansiyaları eyni hesablama vahididir",
+      "C": "Buludda resurs icarəsi üçün fiziki avadanlıq almaq şərtdir",
+      "D": "Hesablama resursu heterogendir, CPU və GPU fərqlidir",
+      "E": "Bulud resurslarının istifadəsini ölçmək mümkün deyil"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 24,
+    "topic": 1,
+    "number": 24,
+    "question": "Resurs yaratma axınında IAM yoxlaması hansı məqsədə xidmət edir?",
+    "options": {
+      "A": "İşə düşən instansiyanın sağlamlığını yoxlamağa",
+      "B": "VM üçün CPU və yaddaş ayırmağa",
+      "C": "İstifadəyə görə faktura hesablamağa",
+      "D": "Sorğu üçün uyğun fiziki host seçməyə",
+      "E": "Kimliyi və icazəni yoxlamağa"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 25,
+    "topic": 1,
+    "number": 25,
+    "question": "IaaS ilə SaaS arasında müştərinin təhlükəsizlik məsuliyyəti necə fərqlənir?",
+    "options": {
+      "A": "IaaS-də daha geniş, SaaS-də daha dardır",
+      "B": "Hər ikisində tətbiq konfiqurasiyası provayderə aiddir",
+      "C": "IaaS-də daha dar, SaaS-də daha genişdir",
+      "D": "Hər ikisində fiziki data mərkəzi müştəriyə aiddir",
+      "E": "Hər ikisində məsuliyyət sərhədi eyni qalır"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 26,
+    "topic": 1,
+    "number": 26,
+    "question": "Əsas baza və oxuma replikası olan elastik tətbiq arxitekturasında yazma əməliyyatları hara yönləndirilir?",
+    "options": {
+      "A": "Resursların hesablaşdırma mühərrikinə",
+      "B": "İnfrastrukturun host planlaşdırıcısına",
+      "C": "Oxuma replikasına",
+      "D": "Domen adları serverinə",
+      "E": "Əsas (primary) bazaya"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 27,
+    "topic": 1,
+    "number": 27,
+    "question": "Müştərilərin yük zirvələrinin müxtəlif vaxtlara düşməsi provayderə necə kömək edir?",
+    "options": {
+      "A": "Zirvələr fərqli vaxta düşür, tutum səmərəli istifadə olunur",
+      "B": "Bütün müştərilərin tutumunu sabit saxlamağı tələb edir",
+      "C": "Resurs istifadəsini ölçməyə ehtiyacı aradan qaldırır",
+      "D": "Hər müştəri üçün ayrıca fiziki server almağı tələb edir",
+      "E": "Paylaşılan infrastrukturu təcridsiz işlətməyə imkan verir"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 28,
+    "topic": 1,
+    "number": 28,
+    "question": "NIST tərifinə görə resurs hovuzlaşdırması hansı təsvirə uyğundur?",
+    "options": {
+      "A": "Tutumun tələbata görə avtomatik artırılıb azaldılması",
+      "B": "Resurslara standart şəbəkə mexanizmləri ilə çıxış",
+      "C": "İnsan vasitəçisi olmadan API ilə resurs təmin edilməsi",
+      "D": "İstifadənin avtomatik ölçülüb şəffaf hesablaşdırılması",
+      "E": "Resursların dinamik bölüşdürülməsi və müştərinin fiziki maşını bilməməsi"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 29,
+    "topic": 1,
+    "number": 29,
+    "question": "Kiçik trafikə malik prototip üçün prioritetlər hansı cütdə düzgün verilib?",
+    "options": {
+      "A": "Çoxsaylı AZ və mürəkkəb insident idarəetməsi",
+      "B": "Qlobal yayılma və çoxregionlu mürəkkəblik",
+      "C": "Böyük server parkı və əl ilə tutum planlaşdırması",
+      "D": "Xərcin minimallaşdırılması və sadəlik",
+      "E": "Maksimum fiziki ehtiyat və yüksək ilkin yatırım"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 30,
+    "topic": 1,
+    "number": 30,
+    "question": "Serverless yanaşmasında serverlə bağlı nə dəyişir?",
+    "options": {
+      "A": "Hesablama işi yalnız istifadəçi cihazına keçir",
+      "B": "Server mövcuddur, onun idarəetməsi (patching, scaling) provayderə keçir",
+      "C": "Tətbiq fiziki server olmadan işləyir",
+      "D": "Əməliyyat sistemi yeniləmələri ləğv edilir",
+      "E": "Miqyaslanma müştərinin əl əməyinə keçir"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 31,
+    "topic": 1,
+    "number": 31,
+    "question": "Çox-kirayəçilik (multi-tenancy) nə deməkdir?",
+    "options": {
+      "A": "Bir tətbiqin sorğularının yalnız bir serverdə işlənməsi",
+      "B": "Müştərilərin eyni infrastrukturu təcrid olunmuş paylaşması",
+      "C": "Hər istifadəçi üçün ayrıca fiziki data mərkəzinin qurulması",
+      "D": "Bir müştərinin müxtəlif provayderlərdən ayrıca xidmət alması",
+      "E": "Müştərilərin eyni tətbiq hesabı və giriş icazəsini paylaşması"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 32,
+    "topic": 1,
+    "number": 32,
+    "question": "Capex hansı xərc növünü ifadə edir?",
+    "options": {
+      "A": "Aylıq trafik həcminə görə xidmət haqqı",
+      "B": "İstifadə olunduqca ödənilən cari xərc",
+      "C": "Sorğu sayına uyğun hesablanan ödəniş",
+      "D": "Əvvəlcədən uzunmüddətli aktivə yatırım",
+      "E": "İcarə olunan CPU-saat üçün cari ödəniş"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 33,
+    "topic": 1,
+    "number": 33,
+    "question": "Bulud infrastrukturunda region nədir?",
+    "options": {
+      "A": "Coğrafi olaraq ayrı infrastruktur qrupu",
+      "B": "Virtual maşınlara resurs ayıran proqram qatı",
+      "C": "Bir serverdəki qonaq əməliyyat sistemi",
+      "D": "İstifadəni ölçən hesablaşdırma komponenti",
+      "E": "Bir tətbiqin avtomatik miqyaslanma həddi"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 34,
+    "topic": 1,
+    "number": 34,
+    "question": "IaaS istifadəçisi tətbiqin giriş icazələrini səhv qurub. Paylaşılan Məsuliyyət Modelinə görə bu konfiqurasiyanın düzəldilməsi kimə aiddir?",
+    "options": {
+      "A": "Provayderin hipervizor komandasına",
+      "B": "Fiziki data mərkəzi operatoruna",
+      "C": "Provayderin enerji təchizatı komandasına",
+      "D": "Provayderin fiziki şəbəkə komandasına",
+      "E": "IaaS müştərisinə"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 35,
+    "topic": 1,
+    "number": 35,
+    "question": "Şirkət nadir trafik zirvəsinə görə server alıb. Bu seçim niyə tutum uyğunsuzluğu yarada bilər?",
+    "options": {
+      "A": "Serverin quraşdırılması sifarişdən sonra uzun çəkir",
+      "B": "İdarə olunan xidmət provayderə asılılığı artırır",
+      "C": "Zirvə üçün alınan tutum il ərzində əsasən boş qalır",
+      "D": "Region seçimi məlumatın saxlanma yerinə bağlıdır",
+      "E": "Müştəri tətbiqin giriş icazələrini özü idarə edir"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 36,
+    "topic": 1,
+    "number": 36,
+    "question": "Yük balanslayıcısının əsas işi hansıdır?",
+    "options": {
+      "A": "CPU-saat istifadəsini fakturada qiymətləndirmək",
+      "B": "Yeni fiziki serverlərin satın alınmasını təsdiqləmək",
+      "C": "Verilənlər bazası üçün hüquqi region seçmək",
+      "D": "Gələn trafiki bir neçə server instansiyası arasında bölüşdürmək",
+      "E": "Tətbiqin mənbə kodunu avtomatik yeniləmək"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 37,
+    "topic": 1,
+    "number": 37,
+    "question": "Paylaşılan Məsuliyyət Modelində fiziki data mərkəzinin təhlükəsizliyi kimə aiddir?",
+    "options": {
+      "A": "Bulud provayderinə",
+      "B": "Müştərinin giriş icazələri administratoruna",
+      "C": "Tətbiqin son istifadəçisinə",
+      "D": "Müştərinin qonaq OS administratoruna",
+      "E": "Müştərinin tətbiq proqramçısına"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 38,
+    "topic": 1,
+    "number": 38,
+    "question": "Ölçmə axınında məlumat ötürmə xərcinin görünməməsi hansı problemi yarada bilər?",
+    "options": {
+      "A": "İstifadəyə görə ödənişin sabit abunəliyə çevrilməsini",
+      "B": "Gizli qalan xərcin gözlənilməz faktura yaratmasını",
+      "C": "Fakturanın yalnız CPU xərcindən ibarət olmasını",
+      "D": "İstifadə həcminin avtomatik məhdudlaşdırılmasını",
+      "E": "Ötürmə haqqının fakturadan avtomatik silinməsini"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 39,
+    "topic": 1,
+    "number": 39,
+    "question": "Çox-kirayəçili mühitdə əsas prioritet sıxlıq deyil, daha güclü təcriddir. VM və konteyner arasında hansı seçim mühazirədəki trade-off-a uyğundur?",
+    "options": {
+      "A": "VM: host nüvəsini paylaşdığı üçün",
+      "B": "Konteyner: ayrıca nüvə işlətdiyi üçün",
+      "C": "VM: hər müştərinin öz nüvəsi var",
+      "D": "Konteyner: tam qonaq OS yüklədiyi üçün",
+      "E": "Konteyner: host nüvəsini paylaşdığı üçün"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 40,
+    "topic": 1,
+    "number": 40,
+    "question": "Miqyaslanmanı elastiklikdən ayıran düzgün fikir hansıdır?",
+    "options": {
+      "A": "Miqyaslanma tutumun yalnız azalmasını ifadə edir",
+      "B": "Elastiklik avtomatlaşdırma tələb etməyən genişlənmədir",
+      "C": "Miqyaslanan sistem artan yükə cavab verə bilməz",
+      "D": "Elastiklikdə tutum yalnız yuxarı istiqamətdə dəyişir",
+      "E": "Elastiklik miqyaslanmanın avtomatik ikitərəfli formasıdır"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 41,
+    "topic": 1,
+    "number": 41,
+    "question": "NIST xüsusiyyətlərindən hansı insan vasitəçisi olmadan API və ya konsolla resurs almağı bildirir?",
+    "options": {
+      "A": "Geniş şəbəkə çıxışı",
+      "B": "Tələb üzrə özünəxidmət",
+      "C": "Sürətli elastiklik",
+      "D": "Ölçülən xidmət",
+      "E": "Resurs hovuzlaşdırması"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 42,
+    "topic": 1,
+    "number": 42,
+    "question": "Yüksək əlçatanlıq SLA-sı niyə sıfır-kəsinti zəmanəti deyil?",
+    "options": {
+      "A": "Hər müştəri üçün çoxregionlu dizaynı avtomatik təmin edir",
+      "B": "Nasazlıq ehtimalının sıfır olduğunu ifadə edir",
+      "C": "İllik icazə verilən dayanma müddətini ifadə edir",
+      "D": "Dayanma müddətini hesablamağı lazımsız edir",
+      "E": "Hər planlı və plansız kəsintini əvvəlcədən aradan qaldırır"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 43,
+    "topic": 1,
+    "number": 43,
+    "question": "Tətbiq instansiyalarının sayı artırılıb, amma tək verilənlər bazası artıq darboğazdır. Niyə tətbiq qatının elastikliyi kifayət etmir?",
+    "options": {
+      "A": "Yeni tətbiq instansiyası bazanı avtomatik bölür",
+      "B": "İnstansiya artımı əsas bazaya ehtiyacı aradan qaldırır",
+      "C": "Tək baza yeni bottleneck olur",
+      "D": "Tətbiq elastikliyi oxuma və yazmaları dayandırır",
+      "E": "Yük balanslayıcısı bazanın tutumunu avtomatik artırır"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 44,
+    "topic": 1,
+    "number": 44,
+    "question": "Mövsümi zirvələri olan orta trafikli sistemin bütün instansiyaları tək AZ-dadır. AZ nasazlığına bağlı riski azaltmaq üçün hansı dəyişiklik uyğundur?",
+    "options": {
+      "A": "Eyni AZ-da yük balanslayıcısının tutumunu artırmaq",
+      "B": "Eyni AZ-da daha güclü bir instansiyaya keçmək",
+      "C": "Eyni AZ-da əlavə oxuma replikası yaratmaq",
+      "D": "Eyni AZ-dakı instansiyaların sayını artırmaq",
+      "E": "İnstansiyaları bir neçə AZ-ya yaymaq"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 45,
+    "topic": 1,
+    "number": 45,
+    "question": "Özünəxidmət axınında scheduler-in vəzifəsi nədir?",
+    "options": {
+      "A": "İstifadə fakturasını formalaşdırmaq",
+      "B": "Sorğu üçün uyğun fiziki host seçmək",
+      "C": "Domen adını şəbəkə ünvanına yönləndirmək",
+      "D": "Sorğuları oxuma replikasına ötürmək",
+      "E": "Tətbiqin giriş icazələrini müəyyən etmək Mövzu 1 — cavab açarı 1-C2-D3-A4-D5-A6-E7-B8-B9-D10-B11-E12-E13-C14-A15-C 16-A17-B18-C19-C20-A21-D22-D23-D24-E25-A26-E27-A28-E29-D30-B 31-B32-D33-A34-E35-C36-D37-A38-B39-C40-E41-B42-C43-C44-E45-B"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 46,
+    "topic": 2,
+    "number": 1,
+    "question": "İdarə olunan verilənlər bazası xidmətində ehtiyat nüsxə və proqram yamaqlarını provayder edir. Hansı iş yenə müştəridə qalır?",
+    "options": {
+      "A": "Xidmətin hipervizorunun yenilənməsi",
+      "B": "Provayderin data mərkəzinin elektrik təminatı",
+      "C": "Xidmətin fiziki hostlarının yamaqlanması",
+      "D": "Provayderin fiziki şəbəkəsinin qorunması",
+      "E": "Məlumat, giriş hüquqları, şəbəkə qaydaları və sorğu tənzimləməsi"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 47,
+    "topic": 2,
+    "number": 2,
+    "question": "SaaS-da məxfi sənəd “linki olan hər kəs baxa bilər” rejimində paylaşılır. Məsuliyyət bölgüsünə uyğun tədbir hansıdır?",
+    "options": {
+      "A": "Provayderin fiziki şəbəkəsini yenidən qurmaq",
+      "B": "Provayderin guest OS-inə yamaq tətbiq etmək",
+      "C": "Müştəri tərəfində hipervizoru dəyişmək",
+      "D": "Sənədin paylaşma icazələrini yoxlayıb məhdudlaşdırmaq",
+      "E": "Sənədin icazələrinə baxmadan yalnız xidmət planını artırmaq"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 48,
+    "topic": 2,
+    "number": 3,
+    "question": "SaaS-ın sadələşdirilmiş axınında istifadəçi hazır tətbiqə hansı protokolla daxil olur?",
+    "options": {
+      "A": "HTTPS",
+      "B": "FTP",
+      "C": "SSH",
+      "D": "RDP",
+      "E": "SMTP"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 49,
+    "topic": 2,
+    "number": 4,
+    "question": "“Bulud avtomatik ucuzdur” iddiasına qarşı düzgün izah hansıdır?",
+    "options": {
+      "A": "Bütün bulud xidmətləri yalnız sabit aylıq ödənişlə verilir",
+      "B": "SaaS-da istifadə edilməyən lisenziyalar xərc yaratmır",
+      "C": "IaaS-da unudulmuş VM üçün ödəniş yaranmır",
+      "D": "PaaS planının ölçüsü xərcə təsir etmir",
+      "E": "Unudulmuş VM və istifadəsiz lisenziya xərc yaradır"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 50,
+    "topic": 2,
+    "number": 5,
+    "question": "Cloud Foundry və ya Dokku kimi PaaS proqramı IaaS VM-də özün quraşdırılıb idarə olunur. Bu halda hansı nəticə düzgündür?",
+    "options": {
+      "A": "Açıq mənbə proqram istifadəçi girişlərinin idarəsini ləğv edir",
+      "B": "IaaS provayderi yerləşdirilən tətbiqin bütün koduna cavabdeh olur",
+      "C": "Self-hosted seçim məlumat üzrə məsuliyyəti provayderə keçirir",
+      "D": "Proqram PaaS adlandığı üçün OS avtomatik provayderə keçir",
+      "E": "Həm proqramı, həm də altdakı OS-i müştəri idarə edir"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 51,
+    "topic": 2,
+    "number": 6,
+    "question": "IaaS-da unudulmuş VM, PaaS-da lazımsız yüksək plan və SaaS-da istifadə edilməyən lisenziyalar aşkarlanıb. Xərci qiymətləndirərkən hansı yanaşma düzgündür?",
+    "options": {
+      "A": "Xidmət modeli dəyişəndə bütün xərc səhvlərinin yox olduğunu qəbul etmək",
+      "B": "Bütün modellərdə yalnız VM sayını azaltmaq",
+      "C": "Xərc səhvinin növü modelə görə dəyişir, hər modeldə xərc izlənməlidir",
+      "D": "Bütün modellərdə yalnız istifadəçi lisenziyalarını yoxlamaq",
+      "E": "İdarə olunan xidmətlərdə xərc izləməsini dayandırmaq"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 52,
+    "topic": 2,
+    "number": 7,
+    "question": "Ortaq məsuliyyət modeli hansı bölgünü izah edir?",
+    "options": {
+      "A": "Proqramlaşdırma dillərinin icra sürətinə görə sıralanmasını",
+      "B": "Bulud provayderlərinin bazar paylarının müqayisəsini",
+      "C": "Müştərilərin istifadəçi sayına görə qruplaşdırılmasını",
+      "D": "Məsuliyyətin provayder və müştəri arasında bölgüsünü",
+      "E": "Public cloud regionlarının coğrafi bölgüsünü"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 53,
+    "topic": 2,
+    "number": 8,
+    "question": "Tətbiq xüsusi lisenziyalı proqram və OS səviyyəsində tənzimləmə tələb edir. Bu tələb baxımından hansı seçim daha uyğundur?",
+    "options": {
+      "A": "OS nəzarəti verməyən PaaS platforması",
+      "B": "Yalnız xarici e-poçt göndərmə xidməti",
+      "C": "OS səviyyəsində nəzarət verən IaaS VM",
+      "D": "Məhdud ayarlı hazır SaaS tətbiqi",
+      "E": "Yalnız hazır onlayn forma xidməti"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 54,
+    "topic": 2,
+    "number": 9,
+    "question": "Self-hosted ifadəsi proqram haqqında nəyi göstərir?",
+    "options": {
+      "A": "Proqramın yalnız private cloud-da işləyə bildiyini",
+      "B": "Əməliyyat sistemini həmişə provayderin idarə etdiyini",
+      "C": "Əməliyyat məsuliyyətinin istifadəçidə olduğunu",
+      "D": "Proqramın ayrıca NIST xidmət modeli olduğunu",
+      "E": "Proqramın yalnız öz data mərkəzində işlədiyini"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 55,
+    "topic": 2,
+    "number": 10,
+    "question": "Yeni bulud xidmətinə IaaS, PaaS və ya SaaS etiketi verməzdən əvvəl hansı addım daha düzgündür?",
+    "options": {
+      "A": "Xidməti istifadəçi sayına görə modelə aid etmək",
+      "B": "Əvvəl provayderin nəyi idarə etdiyini və müştəridə nə qaldığını soruşmaq",
+      "C": "Məhsul adında “cloud” sözünün olub-olmadığını yoxlamaq",
+      "D": "Proqramlaşdırma dilinə əsasən xidmət modelini seçmək",
+      "E": "Yalnız reklam mətnindəki model adını əsas götürmək"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 56,
+    "topic": 2,
+    "number": 11,
+    "question": "PaaS-da provayder instansiyaları idarə etsə də, hansı iş müştəridə qalır?",
+    "options": {
+      "A": "Tətbiq kodu, konfiqurasiya, məlumat və giriş",
+      "B": "Hipervizorun təhlükəsizlik yamaqlarının quraşdırılması",
+      "C": "Platformanın əməliyyat sistemi yamaqlarının tətbiqi",
+      "D": "Fiziki serverin sıradan çıxmış hissəsinin dəyişdirilməsi",
+      "E": "Data mərkəzində soyutma sisteminin idarəsi"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 57,
+    "topic": 2,
+    "number": 12,
+    "question": "Bir komponent müştərinin xüsusi OS tənzimləməsini tələb edir; digər komponentdə isə provayderin hazır sənəd paylaşma tətbiqindən istifadə olunur. Bu iki komponentə uyğun xidmət modeli bölgüsü hansıdır?",
+    "options": {
+      "A": "Hər iki komponent IaaS, çünki bir komponent üçün OS nəzarəti lazımdır",
+      "B": "Hər iki komponent SaaS, çünki hər ikisi buludda işləyir",
+      "C": "Hər iki komponent PaaS, çünki biri xüsusi OS tənzimləməsi tələb edir",
+      "D": "OS nəzarəti tələb edən komponent IaaS, hazır sənəd paylaşımı SaaS",
+      "E": "OS nəzarəti tələb edən komponent SaaS, hazır sənəd paylaşımı IaaS"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 58,
+    "topic": 2,
+    "number": 13,
+    "question": "Yerləşdirmə modeli hansı suala cavab verir?",
+    "options": {
+      "A": "Harada və kim üçün işlədiyi sualına",
+      "B": "Tətbiq kodunu hansı tərəf yamaqlayır?",
+      "C": "Müştəri hansı hazır məhsulu satın alır?",
+      "D": "Proqram hansı dil ilə yazılıb?",
+      "E": "Tətbiqin hansı sorğusu daha sürətlidir?"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 59,
+    "topic": 2,
+    "number": 14,
+    "question": "İdarə olunan xidmət anlayışı nəyi bildirir?",
+    "options": {
+      "A": "Yalnız müştərinin idarə etdiyi fiziki serveri",
+      "B": "Bütün proqramlar üçün vahid təhlükəsizlik protokolunu",
+      "C": "NIST-in dördüncü xidmət modelini",
+      "D": "Provayderin qismən idarə etdiyi məhsulu",
+      "E": "Public və private cloud arasındakı yerləşdirmə seçimini"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 60,
+    "topic": 2,
+    "number": 15,
+    "question": "İdarə olunan xidmətdə tətbiqin avtomatik sürətli olmamasının əsas səbəbi nədir?",
+    "options": {
+      "A": "Performans tətbiq koduna və konfiqurasiyaya bağlıdır",
+      "B": "Əməliyyat yükünün azalması performansı mütləq zəiflədir",
+      "C": "Backup mexanizmi tətbiqin bütün gecikmələrini aradan qaldırır",
+      "D": "Provayderin yamaq tətbiqi bütün sorğuları avtomatik optimallaşdırır",
+      "E": "İdarə olunan xidmətlər tətbiq kodunu işlətmir"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 61,
+    "topic": 2,
+    "number": 16,
+    "question": "Vendor uyğunluq xəritəsində eyni sətirdə göstərilən xidmətləri necə oxumaq lazımdır?",
+    "options": {
+      "A": "Tam eyni məsuliyyət bölgüsü olan məhsullar kimi",
+      "B": "Eyni qiymət və limitləri olan xidmətlər kimi",
+      "C": "Konseptual yaxınlıq kimi, 1:1 ekvivalentlik iddiası olmadan",
+      "D": "Bir-birinə dəyişikliksiz köçürülən tətbiqlər kimi",
+      "E": "Hamısı eyni yerləşdirmə modelinə aid sistemlər kimi"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 62,
+    "topic": 2,
+    "number": 17,
+    "question": "Bir bulud sistemi eyni zamanda “private” və “IaaS” kimi təsvir olunursa, bu necə izah edilir?",
+    "options": {
+      "A": "Private cloud-da IaaS mümkün olmadığı üçün təsvir ziddiyyətlidir",
+      "B": "Private yerləşdirmə, IaaS isə xidmət modelidir",
+      "C": "Bu iki ifadə eyni xidmət modelinin fərqli kommersiya adlarıdır",
+      "D": "IaaS etiketi yalnız public cloud infrastrukturu üçün istifadə olunur",
+      "E": "Private sözü yalnız proqramlaşdırma texnologiyasını göstərir"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 63,
+    "topic": 2,
+    "number": 18,
+    "question": "Bulud komponenti üçün üç əsas seçim meyarı hansı variantda düzgün verilib?",
+    "options": {
+      "A": "Daşınabilirlik, uyğunluq, xərc profili",
+      "B": "Nəzarət ehtiyacı, əməliyyat gücü, fərqləndirici dəyər",
+      "C": "İstifadəçi sayı, region sayı, tətbiqin ölçüsü",
+      "D": "Ödəniş vahidi, instansiya sayı, icra mühitinin versiyası",
+      "E": "Proqramlaşdırma dili, lisenziya növü, backup tezliyi"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 64,
+    "topic": 2,
+    "number": 19,
+    "question": "PaaS modelində müştəri hansı işi görür?",
+    "options": {
+      "A": "Provayderin fiziki şəbəkə avadanlığını idarə edir",
+      "B": "Data mərkəzinin elektrik təminatını təşkil edir",
+      "C": "Hazır tətbiqdən yalnız son istifadəçi kimi istifadə edir",
+      "D": "Öz tətbiq kodunu və konfiqurasiyasını provayderin idarə etdiyi mühitdə yerləşdirir",
+      "E": "Hipervizoru quraşdıraraq fiziki serverləri bölür"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 65,
+    "topic": 2,
+    "number": 20,
+    "question": "IaaS-dan PaaS-a keçiddə sadələşdirilmiş bölgüyə görə hansı əlavə qatlar provayderə keçir?",
+    "options": {
+      "A": "Məlumat və paylaşma konfiqurasiyası",
+      "B": "Tətbiq kodu və istifadəçi kimlikləri",
+      "C": "Əməliyyat sistemi və icra mühiti",
+      "D": "Fiziki bina və elektrik təminatı",
+      "E": "Fiziki serverlər və virtuallaşdırma"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 66,
+    "topic": 2,
+    "number": 21,
+    "question": "Məsuliyyət cədvəlində M* işarəsinin düzgün izahı hansıdır?",
+    "options": {
+      "A": "Həmin qat yalnız IaaS-da mövcuddur və digər modellərdə silinir",
+      "B": "Müştərinin həmin qat üzrə məsuliyyəti provayderə tam keçir",
+      "C": "Provayderin verdiyi alətlər müştərinin düzgün istifadə öhdəliyini aradan qaldırır",
+      "D": "Müştəri və provayder hər bir əməliyyatı mütləq eyni vaxtda yerinə yetirir",
+      "E": "Müştərinin məsuliyyəti qalır, provayder alət verir, düzgün istifadə müştəridədir"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 67,
+    "topic": 2,
+    "number": 22,
+    "question": "Sadələşdirilmiş qat bölgüsündə tətbiq kodu da hansı modeldə provayderə keçir?",
+    "options": {
+      "A": "IaaS",
+      "B": "IaaS VM-də self-hosted idarəetmə",
+      "C": "SaaS",
+      "D": "On-premises idarəetmə",
+      "E": "PaaS"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 68,
+    "topic": 2,
+    "number": 23,
+    "question": "“Kiçik sistem üçün SaaS, böyük sistem üçün IaaS” qaydası niyə düzgün deyil?",
+    "options": {
+      "A": "Seçim miqyas üzrə yox, komponent üzrə edilir",
+      "B": "Bütün komponentlərə eyni xidmət modeli tətbiq olunmalıdır",
+      "C": "Böyük sistemlərdə idarə olunan xidmət işlətmək mümkün deyil",
+      "D": "İstifadəçi sayı məsuliyyət sərhədini birbaşa müəyyən edir",
+      "E": "Kiçik sistemlərdə OS səviyyəsində nəzarət tələb oluna bilməz"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 69,
+    "topic": 2,
+    "number": 24,
+    "question": "SaaS modelinin əsas xüsusiyyəti hansıdır?",
+    "options": {
+      "A": "Fiziki infrastrukturu müştərinin idarə etməsi",
+      "B": "Müştərinin guest OS-i özü yamaqlaması",
+      "C": "Müştərinin bütün tətbiq kodunu özü hazırlaması",
+      "D": "Müştəri altdakı infrastrukturu idarə etmir",
+      "E": "Müştərinin icra mühitini özü quraşdırması"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 70,
+    "topic": 2,
+    "number": 25,
+    "question": "IaaS modelində müştəriyə əsasən hansı imkan verilir?",
+    "options": {
+      "A": "Öz kodunu əməliyyat sisteminə nəzarət etmədən yerləşdirmək",
+      "B": "Yalnız hazır tətbiqdə istifadəçi parametrlərini dəyişmək",
+      "C": "Hesablama, yaddaş və şəbəkə resursları alıb üzərində OS daxil istənilən proqramı işlətmək",
+      "D": "Provayderin data mərkəzində fiziki serverləri təmir etmək",
+      "E": "Yalnız provayderin yazdığı tətbiq kodundan istifadə etmək"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 71,
+    "topic": 2,
+    "number": 26,
+    "question": "Provayderə bağlılıq riskini azaltmağa hansı yanaşma kömək edə bilər?",
+    "options": {
+      "A": "Məlumatın başqa sistemə çıxarılmasını planlaşdırmamaq",
+      "B": "Yalnız provayderə xas interfeyslərdən istifadə",
+      "C": "Bütün tətbiqi provayderin xüsusi imkanlarına bağlamaq",
+      "D": "Daşınabilirliyi və standart texnologiyaları seçmək",
+      "E": "Xidmət seçərkən daşınabilirliyi nəzərə almamaq"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 72,
+    "topic": 2,
+    "number": 27,
+    "question": "Bir xidmət müştəriyə guest OS-i müştərinin özünün idarə etdiyi VM verir; digəri isə OS-i müştəriyə idarə etdirməyən abstrakt idarə olunan xidmətdir. Məsuliyyət bölgüsü barədə hansı fikir düzgündür?",
+    "options": {
+      "A": "VM-də guest OS yamağı provayderdədir; abstrakt xidmətdə müştəri hipervizoru yamaqlayır",
+      "B": "VM-də OS yamağı müştəridədir; abstrakt xidmətdə də məlumat və giriş müştəridədir",
+      "C": "VM müştərisi OS-i idarə etdiyinə görə həmin VM-in fiziki infrastrukturu da onun məsuliyyətindədir",
+      "D": "Abstrakt xidmətdə provayder OS-i idarə etdiyinə görə müştərinin məlumat məsuliyyəti də bitir",
+      "E": "Hər iki xidmətdə müştəri provayderin fiziki serverlərini yamaqlayır"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 73,
+    "topic": 2,
+    "number": 28,
+    "question": "Veb server və ya Java/Python mühiti kimi tətbiqin işləməsi üçün lazım olan komponent doqquz qatlı bölgünün hansı qatına aiddir?",
+    "options": {
+      "A": "İcra mühiti (runtime)",
+      "B": "Virtuallaşdırma",
+      "C": "Fiziki şəbəkə və serverlər",
+      "D": "Tətbiq konfiqurasiyası",
+      "E": "İstifadəçi kimlikləri və giriş"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 74,
+    "topic": 2,
+    "number": 29,
+    "question": "Niyə doqquz qatlı konseptual cədvəl real xidmətin bütün məsuliyyətlərini dəqiq müəyyən etmək üçün kifayət deyil?",
+    "options": {
+      "A": "Cədvəl konseptualdır, dəqiq bölgü rəsmi sənəddədir",
+      "B": "Cədvəldəki model adları yalnız qiymət səviyyələrini bildirir",
+      "C": "Qat bölgüsü yalnız fiziki serverlərin ölçüsünü göstərir",
+      "D": "Real xidmətlərdə müştərinin heç bir məsuliyyəti qalmır",
+      "E": "Bütün real xidmətlər yalnız SaaS modelinə uyğun gəlir"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 75,
+    "topic": 2,
+    "number": 30,
+    "question": "OS səviyyəsində nəzarət tələb etməyən tətbiq üçün komandanın yamaq və backup işlərinə vaxtı yoxdur. Öz kodunu işlətmək şərti ilə hansı seçim əsas əməliyyat yükünü azaldar?",
+    "options": {
+      "A": "IaaS VM-də özünün qurduğu platforma",
+      "B": "Öz serverində idarə etdiyi konteyner klasteri",
+      "C": "İdarə olunan tətbiq platforması (PaaS)",
+      "D": "Özünün idarə etdiyi tək IaaS VM",
+      "E": "Öz data mərkəzində fiziki server"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 76,
+    "topic": 2,
+    "number": 31,
+    "question": "Docker və Kubernetes mühazirədə hansı anlayışa nümunədir?",
+    "options": {
+      "A": "Ortaq məsuliyyət çərçivəsi",
+      "B": "Texnologiya",
+      "C": "Yerləşdirmə modeli",
+      "D": "Ödəniş modeli",
+      "E": "Xidmət modeli"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 77,
+    "topic": 2,
+    "number": 32,
+    "question": "Tətbiq və verilənlər bazası tək bulud VM-də işləyir. VM dayandıqda hər ikisi dayanır. Hansı nəticə düzgündür?",
+    "options": {
+      "A": "IaaS tətbiqləri həmişə provayder tərəfindən başqa VM-ə keçirilir",
+      "B": "Eyni VM-də baza yerləşdirmək avtomatik yüksək əlçatanlıq yaradır",
+      "C": "İstifadəyə görə ödəniş bütün dayanma risklərini aradan qaldırır",
+      "D": "Tək VM istifadəsi nasazlıq nöqtəsinin olmadığını göstərir",
+      "E": "Tək VM tək nasazlıq nöqtəsidir"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 78,
+    "topic": 2,
+    "number": 33,
+    "question": "Ortaq məsuliyyət cədvəlində bir sahənin “Paylaşılan” göstərilməsi nə deməkdir?",
+    "options": {
+      "A": "Həmin sahədə məsuliyyət yalnız proqramın istehsalçısına aiddir",
+      "B": "İş provayder və müştəri arasında bölünür",
+      "C": "Həmin sahədə heç bir tərəf cavabdeh deyil",
+      "D": "Həmin sahədə bütün iş yalnız provayderin üzərindədir",
+      "E": "Həmin sahədə bütün iş yalnız müştərinin üzərindədir"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 79,
+    "topic": 2,
+    "number": 34,
+    "question": "SaaS seçiminin xüsusi tələblərə uyğunlaşdırma baxımından əsas məhdudiyyəti nədir?",
+    "options": {
+      "A": "Tətbiqin davranışını xüsusi tələblərə uyğunlaşdırmaq çətindir",
+      "B": "Müştəri fiziki serverləri özü qurmalıdır",
+      "C": "Müştəri OS yamaqlarını özü tətbiq etməlidir",
+      "D": "Hazır tətbiqə brauzerdən giriş mümkün deyil",
+      "E": "Müştəri bütün icra mühitini özü yaratmalıdır"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 80,
+    "topic": 2,
+    "number": 35,
+    "question": "Provayder daha çox qat idarə etdikdə əsas trade-off necə dəyişir?",
+    "options": {
+      "A": "Əməliyyat yükü və nəzarət artır",
+      "B": "Əməliyyat yükü azalır, nəzarət də azalır",
+      "C": "Əməliyyat yükü azalır, nəzarət dəyişmir",
+      "D": "Əməliyyat yükü artır, nəzarət azalır",
+      "E": "Əməliyyat yükü azalır, OS nəzarəti artır"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 81,
+    "topic": 2,
+    "number": 36,
+    "question": "Komandanın yamaq, backup və növbətçilik yükünü daşımağa insan və vaxtının çatması hansı meyarı qiymətləndirir?",
+    "options": {
+      "A": "Proqramın lisenziya növünü",
+      "B": "Fərqləndirici dəyəri",
+      "C": "Texnologiyanın xidmət modelini",
+      "D": "Məlumatın yerləşdiyi regionu",
+      "E": "Əməliyyat gücü"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 82,
+    "topic": 2,
+    "number": 37,
+    "question": "Komponent üçün OS nəzarəti lazım deyil, amma məlumat yalnız müəyyən regionda saxlanmalıdır. Seçimdə nə edilməlidir?",
+    "options": {
+      "A": "SaaS seçildikdə region məhdudiyyətini avtomatik ödənmiş saymaq",
+      "B": "Region tələbini ayrıca meyar kimi nəzərə almaq, çünki uyğunluq seçimi məhdudlaşdıra bilər",
+      "C": "Yalnız istifadəçi sayına əsasən xidmət modelini seçmək",
+      "D": "Əməliyyat yükü az olan bütün xidmətləri uyğun hesab etmək",
+      "E": "Nəzarət ehtiyacı olmadığı üçün region tələbini nəzərə almamaq"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 83,
+    "topic": 2,
+    "number": 38,
+    "question": "IaaS VM işə düşdükdən sonra guest OS yamaqlarına kim cavabdehdir?",
+    "options": {
+      "A": "Bulud provayderi",
+      "B": "Fiziki serverin istehsalçısı",
+      "C": "Tətbiqin son istifadəçiləri",
+      "D": "Müştəri",
+      "E": "Şəbəkə bağlantısı verən operator"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 84,
+    "topic": 2,
+    "number": 39,
+    "question": "Doqquz qatlı bölgüdə hipervizorun əsas işi nədir?",
+    "options": {
+      "A": "Tətbiqin biznes məntiqini icra etmək",
+      "B": "İstifadəçilər üçün MFA siyasəti yaratmaq",
+      "C": "Verilənlər bazası sorğularını optimallaşdırmaq",
+      "D": "Tətbiqin paylaşma icazələrini müəyyən etmək",
+      "E": "Fiziki serveri bir neçə virtual maşına bölmək"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 85,
+    "topic": 2,
+    "number": 40,
+    "question": "Ortaq məsuliyyət bölgüsündə bulud xidmətlərini işlədən bina, fiziki şəbəkə, serverlər və virtuallaşdırmanın qorunması kimə aiddir?",
+    "options": {
+      "A": "Tətbiqin son istifadəçilərinə",
+      "B": "Müştərinin proqram lisenziyasını verən tərəfə",
+      "C": "VM daxilindəki tətbiqi hazırlayan müştəriyə",
+      "D": "Müştərinin internet operatoruna",
+      "E": "Bulud provayderinə"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 86,
+    "topic": 2,
+    "number": 41,
+    "question": "Bulud xidmət modeli əsasən nəyi təsvir edir?",
+    "options": {
+      "A": "İnfrastrukturun yerləşdiyi ölkələrin siyahısını",
+      "B": "İstifadəçilərin qoşulduğu şəbəkə protokolunu",
+      "C": "Tətbiqin yazıldığı proqramlaşdırma dilini",
+      "D": "Məhsulun kommersiya adını və versiyasını",
+      "E": "Provayder və müştəri arasında qatlar üzrə məsuliyyət bölgüsünü"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 87,
+    "topic": 2,
+    "number": 42,
+    "question": "Lock-in (bağlılıq) anlayışı nə deməkdir?",
+    "options": {
+      "A": "Tətbiqin eyni vaxtda çox müştəriyə xidmət etməsi",
+      "B": "İstifadəçi hesabının müvəqqəti bloklanması",
+      "C": "Məlumatın yalnız şifrələnmiş saxlanması",
+      "D": "Bir provayderə bağlı qalma, keçidin çətinləşməsi",
+      "E": "VM-in dayandırılıb yenidən başladılması"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 88,
+    "topic": 2,
+    "number": 43,
+    "question": "Sadələşdirilmiş məsuliyyət bölgüsündə IaaS provayderi hansı qatlar qrupunu idarə edir?",
+    "options": {
+      "A": "Əməliyyat sistemi, icra mühiti və tətbiq kodu",
+      "B": "Tətbiq konfiqurasiyası, giriş və paylaşma qərarları",
+      "C": "Bina/enerji, şəbəkə/serverlər, virtuallaşdırma",
+      "D": "İcra mühiti, məlumat və tətbiqin biznes məntiqi",
+      "E": "Tətbiq kodu, məlumat və istifadəçi kimlikləri"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 89,
+    "topic": 2,
+    "number": 44,
+    "question": "Mühazirədəki “shared fate” yanaşması məsuliyyət bölgüsünə hansı dəstəyi əlavə edir?",
+    "options": {
+      "A": "Bütün bulud provayderləri üçün məcburi sənaye standartını",
+      "B": "Təhlükəsiz başlanğıc konfiqurasiyalar və rəhbər materiallar",
+      "C": "İdarə olunan xidmətlərdə məlumat məsuliyyətinin yox olmasını",
+      "D": "Müştərinin provayderin fiziki infrastrukturu üzərində nəzarətini",
+      "E": "Müştərinin giriş siyasətlərinin tamamilə ləğvini"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 90,
+    "topic": 2,
+    "number": 45,
+    "question": "PaaS-da işləyən tətbiqin OS yamaqlarını provayder edir, lakin tətbiqin API açarı sızdırılıb. Müştərinin əsas tədbiri hansı olmalıdır?",
+    "options": {
+      "A": "Sızan açarı ləğv edib yenisini yaratmaq və məxfi məlumatları qorumaq",
+      "B": "Data mərkəzinin soyutma sistemini yeniləmək",
+      "C": "Provayderin hipervizorunu yenidən quraşdırmaq",
+      "D": "Təhlükəsizliyi yalnız OS yamaqlarına həvalə etmək",
+      "E": "Provayderin fiziki serverini özü yamaqlamaq Mövzu 2 — cavab açarı 1-E2-D3-A4-E5-E6-C7-D8-C9-C10-B11-A12-D13-A14-D15-A 16-C17-B18-B19-D20-C21-E22-E23-A24-D25-C26-D27-B28-A29-A30-C 31-B32-E33-B34-A35-B36-E37-B38-D39-E40-E41-E42-D43-C44-B45-A"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 91,
+    "topic": 3,
+    "number": 1,
+    "question": "Bulud regionu daxilində zona hansı əsas rola malikdir?",
+    "options": {
+      "A": "Yalnız məlumatın hüquqi sahibini müəyyən edən roluna",
+      "B": "Region daxilində ayrıca nasazlıq sahəsi roluna",
+      "C": "Bütün regionları birləşdirən idarəetmə paneli roluna",
+      "D": "Ayrıca provayder şirkəti roluna",
+      "E": "Ayrıca xidmət modeli roluna"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 92,
+    "topic": 3,
+    "number": 2,
+    "question": "Self-service, elastiklik və ölçülən xidmət olmayan lokal server otağı public cloud-a VPN ilə qoşulub. Bu təsvir üçün ən dəqiq ad hansıdır?",
+    "options": {
+      "A": "Community cloud",
+      "B": "İki public provayderli multi-cloud",
+      "C": "Public cloud + lokal inteqrasiya",
+      "D": "Yalnız private cloud",
+      "E": "NIST mənasında hybrid cloud"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 93,
+    "topic": 3,
+    "number": 3,
+    "question": "Yüksək trafikli sistemi idarə edən kiçik komanda yalnız bir provayderdə təcrübəlidir. Multi-cloud-a keçidi qiymətləndirərkən hansı risk əsas götürülməlidir?",
+    "options": {
+      "A": "Yüksək trafikin tək provayderdə işləməsinin tərifcə mümkünsüz olması",
+      "B": "Multi-cloud-un əməliyyat yükü kiçik komandanın imkanını aşa bilər",
+      "C": "İkinci provayderin bütün təhlükəsizlik konfiqurasiyasını ləğv etməsi",
+      "D": "Bir provayderdə çox zonalı arxitekturanın mümkün olmaması",
+      "E": "Multi-cloud-un yalnız kiçik trafik üçün nəzərdə tutulması"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 94,
+    "topic": 3,
+    "number": 4,
+    "question": "AWS, Azure və Google Cloud xidmətlərini eyni məqsədə görə uyğunlaşdırmaq niyə tam dizayn ekvivalentliyi demək deyil?",
+    "options": {
+      "A": "Oxşar məqsədli xidmətlər fərqli dizayn olunur, ona görə dizayn mexaniki köçürülmür",
+      "B": "Xidmət adları eynidirsə məlumat modeli də eyni olur",
+      "C": "Provayder dəyişəndə şəbəkə dizaynı həmişə dəyişməz qalır",
+      "D": "Uyğunluq xəritəsi bütün köçürmə işlərini avtomatlaşdırır",
+      "E": "Eyni kateqoriyadakı bütün xidmətlər eyni API-ni işlətməlidir"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 95,
+    "topic": 3,
+    "number": 5,
+    "question": "İki ayrı bulud infrastrukturu vahid paneldən izlənir, lakin iş yükü və məlumat aralarında daşına bilmir. Hybrid təsnifatı üçün hansı çatışmazlıq var?",
+    "options": {
+      "A": "İki tərəfin də bulud olması hybrid-ə mane olur",
+      "B": "Vahid paneldən istifadə bulud xüsusiyyətlərini ləğv edir",
+      "C": "İş yükü və məlumatın daşına bilməməsi (daşınma şərti pozulur)",
+      "D": "Private tərəfin olmaması bütün hybrid halları istisna edir",
+      "E": "İdarəetmə paneli yalnız community cloud-da işləyə bilər"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 96,
+    "topic": 3,
+    "number": 6,
+    "question": "Lokal serverlər uzaq idarəetmə aləti ilə inventarlaşdırılır və izlənir. Mühitin bulud xüsusiyyətləri və başqa buludla iş yükü/məlumat daşınması barədə məlumat yoxdur. Yalnız verilənlər əsasında hansı nəticə düzgündür?",
+    "options": {
+      "A": "İzləmə aləti mühiti özlüyündə nə bulud, nə hybrid edir, əlavə məlumat lazımdır",
+      "B": "Serverlər vahid alətlə izlənirsə, iş yükü və məlumat daşınması artıq təmin olunub",
+      "C": "İdarəetmə aləti başqa mühitdədirsə, lokal serverlərin bulud olub-olmaması hybrid üçün əhəmiyyətsizdir",
+      "D": "Uzaqdan idarəetmə qurulduğuna görə lokal mühit artıq public cloud-dur",
+      "E": "İzləmə aləti qoşulduğuna görə lokal mühit avtomatik private cloud-dur"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 97,
+    "topic": 3,
+    "number": 7,
+    "question": "Public cloud-da tenant təcridi tətbiq edilməsi müştərinin giriş və paylaşım konfiqurasiyası üzrə məsuliyyətinə necə təsir edir?",
+    "options": {
+      "A": "Müştəri yalnız fiziki avadanlıq təhlükəsizliyinə cavabdeh olur",
+      "B": "Giriş siyasəti yalnız məlumat sızdıqdan sonra tələb olunur",
+      "C": "Konfiqurasiya məsuliyyəti yalnız provayderə keçir",
+      "D": "Təcrid konfiqurasiya məsuliyyətini aradan qaldırmır",
+      "E": "Paylaşım rejimi yalnız community cloud-da müştərinin məsuliyyətidir"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 98,
+    "topic": 3,
+    "number": 8,
+    "question": "VPN hybrid inteqrasiyada hansı əsas bağlantını yaradır?",
+    "options": {
+      "A": "Avtomatik məlumat replikası xidməti",
+      "B": "Provayderdən asılılığı ləğv edən universal API",
+      "C": "İnternet üzərindən şifrələnmiş tunel",
+      "D": "Mütləq ayrıca fiziki xətt",
+      "E": "Resurs yaratmaq üçün self-service portalı"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 99,
+    "topic": 3,
+    "number": 9,
+    "question": "Bir alət mövcud server və klasterləri inventarlaşdırır, izləyir və nəzarət altına alır, lakin özü hesablama infrastrukturu vermir. Bu alətin əsas rolu hansıdır?",
+    "options": {
+      "A": "Mövcud serverləri izləyən və nəzarət edən idarəetmə qatı",
+      "B": "Müştəriyə yeni fiziki hesablama avadanlığı təqdim etmək",
+      "C": "Bütün lokal serverləri avtomatik public cloud-a köçürmək",
+      "D": "Mövcud serverləri obyekt saxlama xidməti ilə əvəz etmək",
+      "E": "İş yükü və məlumatın mühitlərarası daşınmasını avtomatik təmin etmək"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 100,
+    "topic": 3,
+    "number": 10,
+    "question": "İki provayderin özünəməxsus xidmətlərindən istifadə vendor lock-in-i niyə avtomatik azaltmır?",
+    "options": {
+      "A": "İki provayder eyni API-dən istifadə etməyə məcburdur",
+      "B": "Provayder sayı artdıqca köçürmə xərci sıfırlanır",
+      "C": "Multi-cloud-da xidmətlərin xüsusi davranışı olmur",
+      "D": "İki provayder olduqda məlumat formatları eyniləşir",
+      "E": "Hər provayderin xüsusi xidmətlərindən istifadə edildikdə hər birinə ayrıca asılılıq yaranır"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 101,
+    "topic": 3,
+    "number": 11,
+    "question": "Buludun beş əsas xüsusiyyəti yerləşdirmə təsnifatından əvvəl nəyi müəyyən etməyə xidmət edir?",
+    "options": {
+      "A": "Mühitin ümumiyyətlə bulud sayılıb-sayılmadığını (meyar)",
+      "B": "Serverlərin hansı şirkətə məxsus olduğunu",
+      "C": "Tətbiqin hansı proqramlaşdırma dilində yazıldığını",
+      "D": "Provayderin bazar payının nə qədər olduğunu",
+      "E": "Məlumatın neçə il saxlanmalı olduğunu"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 102,
+    "topic": 3,
+    "number": 12,
+    "question": "Public cloud infrastrukturunun istifadəsi kimə təklif olunur?",
+    "options": {
+      "A": "Yalnız provayderin öz əməkdaşlarına",
+      "B": "Geniş ictimaiyyətə",
+      "C": "Yalnız bir təşkilatın iş bölmələrinə",
+      "D": "Yalnız ortaq missiyalı təşkilatların qapalı icmasına",
+      "E": "Yalnız infrastruktura sahib olan dövlət qurumuna"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 103,
+    "topic": 3,
+    "number": 13,
+    "question": "Self-hosted anlayışının bulud yerləşdirmə modellərinə münasibəti necədir?",
+    "options": {
+      "A": "Ayrıca model deyil, idarəetmə üsuludur",
+      "B": "NIST-in beşinci yerləşdirmə modelidir",
+      "C": "Yalnız community cloud üçün işlədilən addır",
+      "D": "Yalnız serverless xidmətlərin yerləşdirmə modelidir",
+      "E": "Hər zaman hybrid cloud deməkdir"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 104,
+    "topic": 3,
+    "number": 14,
+    "question": "Community cloud-da üzvün icmadan çıxması üçün əvvəlcədən hansı məsələ razılaşdırılmalıdır?",
+    "options": {
+      "A": "Qalan üzvlərin private cloud adlandırılması",
+      "B": "İcmanın hər dəfə multi-cloud-a çevrilməsi",
+      "C": "Bütün üzvlərin məlumatının ictimailəşdirilməsi",
+      "D": "Üzvün məlumatının necə ayrılıb qaytarılacağı",
+      "E": "Provayderdə bütün regionların bağlanması"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 105,
+    "topic": 3,
+    "number": 15,
+    "question": "Hybrid cloud tərifində buludların “müstəqilliyini saxlaması” nə deməkdir?",
+    "options": {
+      "A": "Hər bulud mütləq fərqli təşkilata məxsus olur",
+      "B": "Buludlar arasında məlumat ötürülməsi qadağandır",
+      "C": "Bütün buludlar eyni fiziki serverə çevrilir",
+      "D": "Hər bulud ayrıca infrastruktur kimi qalır, bir böyük buluda çevrilmir",
+      "E": "Buludlardan yalnız biri əsas xüsusiyyətləri təmin edir"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 106,
+    "topic": 3,
+    "number": 16,
+    "question": "Hybrid sistemdə idarəetmə (control plane) axını əsasən nə üçün istifadə edilir?",
+    "options": {
+      "A": "Müştərinin bütün fayllarını ictimai paylaşmaq üçün",
+      "B": "Resursları yaratmaq, dəyişmək və izləmək üçün",
+      "C": "İş yükünün daşınmasını təkbaşına təmin etmək üçün",
+      "D": "Brauzerin tətbiq sorğusunu emal etmək üçün",
+      "E": "Regionun fiziki yerini dəyişmək üçün"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 107,
+    "topic": 3,
+    "number": 17,
+    "question": "Cloud bursting istifadə olunan hybrid sistemdə public tərəfin xərci barədə hansı fikir düzgündür?",
+    "options": {
+      "A": "Məlumat ötürülməsi bütün müqavilələrdə pulsuzdur",
+      "B": "Pikdən sonra bütün public resurslar avtomatik silinir",
+      "C": "Bütün xərclər yalnız pik saatlardakı hesablamadan ibarətdir",
+      "D": "Bağlantı və məlumat xərcləri pikdən sonra da qala bilər",
+      "E": "Private cloud varsa public tərəfə ödəniş edilmir"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 108,
+    "topic": 3,
+    "number": 18,
+    "question": "NIST SP 800-145-də hansı yerləşdirmə modelləri müəyyən edilib?",
+    "options": {
+      "A": "Community, hybrid, region və zona",
+      "B": "Public, private, self-hosted və serverless",
+      "C": "IaaS, PaaS, SaaS və multi-cloud",
+      "D": "Public, private, community və hybrid",
+      "E": "Private, multi-cloud, konteyner və virtual maşın"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 109,
+    "topic": 3,
+    "number": 19,
+    "question": "Multi-cloud anlayışı hansı meyarı əsas götürür?",
+    "options": {
+      "A": "Bir regiondakı zonaların sayını",
+      "B": "Tətbiqin istifadəçi sayını",
+      "C": "Təşkilatın şöbələrinin sayını",
+      "D": "Virtual maşınların sayını",
+      "E": "Provayderlərin sayını"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 110,
+    "topic": 3,
+    "number": 20,
+    "question": "Açıq mənbəli alternativi öz infrastrukturunda quraşdırıb idarə edən istifadəçinin əməliyyat məsuliyyəti necə olur?",
+    "options": {
+      "A": "Məsuliyyət avtomatik AWS-ə ötürülür",
+      "B": "Məsuliyyət yalnız internet bağlantısını təmin etməklə bitir",
+      "C": "Məsuliyyət yalnız proqram müəllifində qalır",
+      "D": "Açıq mənbəli lisenziya əməliyyat məsuliyyətini ləğv edir",
+      "E": "Əməliyyat məsuliyyəti tamamilə istifadəçidə qalır"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 111,
+    "topic": 3,
+    "number": 21,
+    "question": "Hybrid inteqrasiyada istifadəçilərin və xidmətlərin hər iki mühitdə tanınması hansı tərkib hissəsinə aiddir?",
+    "options": {
+      "A": "Şəbəkə bağlantısı",
+      "B": "İş yükünün daşınması",
+      "C": "Kimlik",
+      "D": "Məlumatın replikası",
+      "E": "Telemetriya"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 112,
+    "topic": 3,
+    "number": 22,
+    "question": "Standart interfeyslərin provayderdən asılılığa təsiri necə qiymətləndirilməlidir?",
+    "options": {
+      "A": "Məlumatın yerləşməsi tələblərini əvəz edir",
+      "B": "Asılılığı azalda bilər, lakin tam aradan qaldırmır",
+      "C": "Asılılığı bütün xidmətlərdə mütləq sıfırlayır",
+      "D": "Yalnız provayderlərin sayını azaltmağa xidmət edir",
+      "E": "İdarə olunan xidmətlərdən istifadəni qadağan edir"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 113,
+    "topic": 3,
+    "number": 23,
+    "question": "Hybrid inteqrasiyada ayrılmış özəl bağlantı VPN-dən əsasən nə ilə fərqlənir?",
+    "options": {
+      "A": "İnternet üzərində şifrələnmiş tunel qurmaqla məhdudlaşır",
+      "B": "Şəbəkə bağlantısı əvəzinə istifadəçi tokenini yoxlayır",
+      "C": "Provayderə ayrıca fiziki xətt verməsi ilə",
+      "D": "Fiziki bağlantı əvəzinə metrik və log-ları toplayır",
+      "E": "Şəbəkə bağlantısı əvəzinə məlumat replikasını yaradır"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 114,
+    "topic": 3,
+    "number": 24,
+    "question": "Düzgün region seçimi məlumatın yerləşməsi tələbini niyə həmişə tam təmin etmir?",
+    "options": {
+      "A": "Region seçimi yalnız provayderin adını dəyişir",
+      "B": "Seçilən region bütün qlobal xidmətləri fiziki olaraq köçürür",
+      "C": "Region heç vaxt yurisdiksiyaya təsir etmir",
+      "D": "Region seçildikdə xidmətlərin saxlanma qaydaları ləğv olunur",
+      "E": "Ehtiyat nüsxə, log və qlobal xidmətlər regiondan çıxa bilər"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 115,
+    "topic": 3,
+    "number": 25,
+    "question": "Yerləşdirmə qərarında büdcə və xərc strukturu meyarı hansı fərqi nəzərə alır?",
+    "options": {
+      "A": "Böyük ilkin investisiya (CapEx) ilə istifadəyə əsaslanan əməliyyat xərcləri (OpEx) fərqini",
+      "B": "DNS ad həlli ilə HTTPS sorğusunun ardıcıllığını",
+      "C": "Region adı ilə zona nömrəsinin yazılışını",
+      "D": "Şəbəkə bağlantısı ilə telemetriyanın funksiyalarını",
+      "E": "Autentifikasiya ilə avtorizasiyanın funksiyalarını"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 116,
+    "topic": 3,
+    "number": 26,
+    "question": "Buludda məlumatın yerləşməsi (data residency) anlayışı nəyi bildirir?",
+    "options": {
+      "A": "Müştərinin hesab adını və giriş parolunu",
+      "B": "Məlumatın saxlandığı coğrafi ərazi və ona tətbiq olunan yurisdiksiya",
+      "C": "Tətbiqin yenilənmə vaxtını və versiyasını",
+      "D": "Məlumatın yalnız fayl formatını və ölçüsünü",
+      "E": "Serverin prosessor növünü və yaddaş tutumunu"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 117,
+    "topic": 3,
+    "number": 27,
+    "question": "Hybrid inteqrasiyada telemetriyanın əsas funksiyası hansıdır?",
+    "options": {
+      "A": "İş yükünü digər buluda köçürmək",
+      "B": "İstifadəçilərə giriş tokeni vermək",
+      "C": "Metrik və log-ları bir yerdə toplamaq",
+      "D": "Məlumatın yurisdiksiyasını dəyişmək",
+      "E": "Mühitlər arasında fiziki xətt çəkmək"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 118,
+    "topic": 3,
+    "number": 28,
+    "question": "Tətbiq instansları, şəbəkə bağlantısı, telemetriya və resurs idarəetməsi işləyir, lakin istifadəçi girişini təsdiqləyən kimlik provayderi əlçatmazdır. Bu vəziyyətdə hansı nasazlıq gözlənilə bilər?",
+    "options": {
+      "A": "Kimlik kəsilməsi yalnız log toplanmasını pozar, yeni girişlər təsirlənməz",
+      "B": "Kimlik kəsilməsi yalnız mühitlərarası baza bağlantısını pozar, yeni girişlər təsirlənməz",
+      "C": "Kimlik kəsilməsi yalnız yeni resurs yaratmağı pozar, yeni girişlər təsirlənməz",
+      "D": "Tətbiq instansları işlədiyinə görə yeni girişlər kimlik provayderi olmadan da mütləq uğurlu olar",
+      "E": "Sistem işləsə də yeni girişlər uğursuz ola bilər"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 119,
+    "topic": 3,
+    "number": 29,
+    "question": "Hybrid sistemdə iş yükünün daşına bilməsindən vahid təhlükəsizlik siyasəti və məlumat ardıcıllığı barədə hansı nəticə çıxır?",
+    "options": {
+      "A": "İki mühitdə bütün icazələr avtomatik eyni olur",
+      "B": "Bütün giriş siyasətlərini provayder avtomatik müəyyən edir",
+      "C": "Bağlantının şifrələnməsinə ehtiyac qalmır",
+      "D": "Məlumat hər iki tərəfdə dərhal eyni vəziyyətdə olur",
+      "E": "Daşınma vahid siyasət demək deyil, ayrıca dizayn olunur"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 120,
+    "topic": 3,
+    "number": 30,
+    "question": "Region seçərkən həm istifadəçilərə fiziki məsafə, həm də məlumatın hansı ölkənin qanunları altında saxlanması qiymətləndirilir. Bu iki amil hansı qərarlara uyğundur?",
+    "options": {
+      "A": "Tenant sayı və giriş tokeninin formatı",
+      "B": "Region seçimi (gecikmə və yurisdiksiya) qərarlarına",
+      "C": "İdarəetmə paneli və telemetriya formatı",
+      "D": "Xidmət modeli və tətbiqin proqramlaşdırma dili",
+      "E": "OS yamağı və tətbiqin lisenziyası"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 121,
+    "topic": 3,
+    "number": 31,
+    "question": "Buludun beş əsas xüsusiyyətini təmin edən mühit yalnız bir təşkilatın müxtəlif fakültələri üçün ayrılıb. Bu mühit hansı yerləşdirmə modelinə uyğundur?",
+    "options": {
+      "A": "Hybrid cloud",
+      "B": "Private cloud",
+      "C": "Community cloud",
+      "D": "Public cloud",
+      "E": "Bulud olmayan ənənəvi infrastruktur"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 122,
+    "topic": 3,
+    "number": 32,
+    "question": "İki müxtəlif public provayderdəki müstəqil bulud infrastrukturları arasında iş yükü və məlumatın daşınması qurulub. Bu sistem necə təsnif edilə bilər?",
+    "options": {
+      "A": "Yalnız private cloud",
+      "B": "Hybrid, lakin heç bir halda multi-cloud deyil",
+      "C": "Həm multi-cloud, həm hybrid ola bilər",
+      "D": "Yalnız community cloud",
+      "E": "Multi-cloud, lakin heç bir halda hybrid deyil"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 123,
+    "topic": 3,
+    "number": 33,
+    "question": "İdarəetmə API-si əlçatmaz olduqda işləyən iş yükü barədə hansı fikir düzgündür?",
+    "options": {
+      "A": "Təsir bütün xidmətlərdə eyni və həmişə sıfırdır",
+      "B": "İşləyən bütün tətbiqlər mütləq silinir",
+      "C": "İdarəetmə istifadəçi sorğusunun yolunda deyil",
+      "D": "İş yükü avtomatik digər provayderə daşınır",
+      "E": "İstifadəçi trafiki həmişə idarəetmə API-sindən keçir"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 124,
+    "topic": 3,
+    "number": 34,
+    "question": "Private cloud-un üçüncü tərəfin data mərkəzində yerləşməsi onun təsnifatını niyə dəyişmir?",
+    "options": {
+      "A": "Üçüncü tərəf heç bir buludun idarəçisi ola bilməz",
+      "B": "Modeli yer yox, kimlər üçün ayrıldığı müəyyən edir",
+      "C": "Kənardakı bütün infrastruktur avtomatik private sayılır",
+      "D": "Yalnız avadanlığın istehsalçısı modeli müəyyən edir",
+      "E": "Fiziki yer dəyişdikdə yerləşdirmə modeli tətbiq olunmur"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 125,
+    "topic": 3,
+    "number": 35,
+    "question": "Hybrid sistemdə brauzerin DNS sorğusu ilə HTTPS sorğusu arasındakı fərq hansıdır?",
+    "options": {
+      "A": "DNS verilənlər bazasını dəyişir, HTTPS regionu seçir",
+      "B": "DNS resurs yaradır, HTTPS xərc hesabatı hazırlayır",
+      "C": "DNS tətbiq kodunu işlədir, HTTPS yalnız ad həllini edir",
+      "D": "DNS ünvanı tapır, HTTPS həmin ünvana sorğu göndərir",
+      "E": "DNS giriş tokenini yoxlayır, HTTPS məlumat replikası yaradır"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 126,
+    "topic": 3,
+    "number": 36,
+    "question": "Trafikin artması ilə yerləşdirmə modeli seçimi arasında hansı münasibət var?",
+    "options": {
+      "A": "Kiçik trafik üçün uyğunluq meyarı nəzərə alınmır",
+      "B": "Yüksək trafik yalnız multi-cloud-da emal oluna bilər",
+      "C": "Trafik azaldıqda bütün private mühitlər public olur",
+      "D": "Qərarı tələblərin kombinasiyası müəyyən edir, trafik yalnız biridir",
+      "E": "Trafik artımı həmişə public-dən hybrid-ə keçid tələb edir"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 127,
+    "topic": 3,
+    "number": 37,
+    "question": "Provayder infrastrukturunu müştərinin data mərkəzinə genişləndirən həllin “air-gapped” variantı mühazirədə necə təsvir olunur?",
+    "options": {
+      "A": "Yalnız VPN ilə qoşulmuş variant",
+      "B": "Provayderin regionuna qoşulmuş variant",
+      "C": "Ayrılmış özəl xətt ilə qoşulmuş variant",
+      "D": "Vahid giriş sistemi ilə qoşulmuş variant",
+      "E": "Tamamilə təcrid olunmuş variant kimi"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 128,
+    "topic": 3,
+    "number": 38,
+    "question": "Cloud bursting nəyi ifadə edir?",
+    "options": {
+      "A": "Tutum çatmayanda yükün digər buluda yönəldilməsi",
+      "B": "Bir zonanın adının başqa zona adı ilə əvəz edilməsini",
+      "C": "Buludun internet bağlantısının şifrələnməsini",
+      "D": "İki provayderin qiymətlərinin avtomatik bərabərləşməsini",
+      "E": "Bir buluddakı bütün məlumatın silinməsini"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 129,
+    "topic": 3,
+    "number": 39,
+    "question": "Provayderləri müqayisə etmək üçün hansı yanaşma mühazirənin prinsipinə uyğundur?",
+    "options": {
+      "A": "Tarixsiz qiymət iddiasını bütün regionlara tətbiq etmək",
+      "B": "Ən çox reklam olunan provayderi bütün layihələrə seçmək",
+      "C": "Yalnız xidmət adlarının oxşarlığına əsaslanmaq",
+      "D": "Provayder sayını artırmağı əsas keyfiyyət göstəricisi saymaq",
+      "E": "Xidmət, ekosistem, region və daşınabilirlik meyarları ilə"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 130,
+    "topic": 3,
+    "number": 40,
+    "question": "Community cloud istifadəçilərini birləşdirən əsas xüsusiyyət nədir?",
+    "options": {
+      "A": "Bütün serverlərin bir istifadəçiyə məxsus olması",
+      "B": "İstifadəçilərin eyni provayderin açıq müştəriləri olması",
+      "C": "Eyni təşkilatın fərqli vəzifəli əməkdaşları olması",
+      "D": "Ortaq missiya, təhlükəsizlik və uyğunluq tələbləri",
+      "E": "Hamının eyni proqramlaşdırma dilindən istifadə etməsi"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 131,
+    "topic": 3,
+    "number": 41,
+    "question": "Telemetriya axını kəsildikdə hansı nəticə daha düzgündür?",
+    "options": {
+      "A": "Bütün istifadəçilərə yeni giriş icazəsi verilir",
+      "B": "İstifadəçi məlumatı avtomatik başqa regiona köçürülür",
+      "C": "Resursların yerləşdirmə modeli private-a dəyişir",
+      "D": "Sistem işləyir, lakin görünmür və nasazlığın səbəbini tapmaq çətinləşir",
+      "E": "Bütün işləyən instanslar mütləq dərhal dayanır"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 132,
+    "topic": 3,
+    "number": 42,
+    "question": "Private cloud infrastrukturunun əsas ayrılma meyarı hansıdır?",
+    "options": {
+      "A": "Ayrı təşkilatlardan ibarət icmanın ortaq istifadəsi",
+      "B": "Yalnız fiziki server sahibinin şəxsi istifadəsi",
+      "C": "İstənilən şəxsin açıq istifadəsi",
+      "D": "Ən azı iki provayderin xidmətlərinin istifadəsi",
+      "E": "Tək bir təşkilatın eksklüziv istifadəsi"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 133,
+    "topic": 3,
+    "number": 43,
+    "question": "İctimai veb qat elastiklik, həssas məlumat qatı isə daha sərt nəzarət tələb edir. Yerləşdirmə qərarı üçün hansı yanaşma əsaslıdır?",
+    "options": {
+      "A": "Komponent səviyyəsində ayrı-ayrı qərar vermək",
+      "B": "Həssas məlumat üçün uyğunluq yoxlamasını buraxmaq",
+      "C": "Bütün komponentlərə eyni modeli məcburi tətbiq etmək",
+      "D": "Əlavə nəzarət əvəzinə yalnız provayder sayını artırmaq",
+      "E": "Yalnız veb trafikinin həcminə görə qərar vermək"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 134,
+    "topic": 3,
+    "number": 44,
+    "question": "Xidmət modeli ilə yerləşdirmə modelinin təsnifatı arasında hansı əlaqə var?",
+    "options": {
+      "A": "Ayrı təsnifatlardır, sistem iki dəfə təsvir olunur",
+      "B": "Yerləşdirmə modeli xidmət modelinin digər adıdır",
+      "C": "PaaS həmişə private cloud deməkdir",
+      "D": "Yalnız IaaS xidmətlərinin yerləşdirmə modeli olur",
+      "E": "SaaS istifadə edildikdə yerləşdirmə təsnifatı ləğv olunur"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 135,
+    "topic": 3,
+    "number": 45,
+    "question": "Hybrid sistemdə tətbiq public cloud-da, verilənlər bazası private cloud-da işləyir və hər sorğu bazaya müraciət edir. Bu yerləşdirmənin sorğu performansına birbaşa riski hansıdır?",
+    "options": {
+      "A": "İki mühit arasında iş yükü daşına bildikdə sorğuların baza cavabını gözləməsinə ehtiyac qalmır",
+      "B": "Baza private cloud-da olduğuna görə mühitlərarası bağlantının sürəti sorğu vaxtına təsir etmir",
+      "C": "Mühitlərarası bağlantı əlavə gecikmə və yeni nasazlıq nöqtəsi yaradır",
+      "D": "Metrik və log-lar bir yerdə toplandıqda baza çağırışları bağlantıdan keçmir",
+      "E": "Vahid giriş sistemi qurulduqda mühitlərarası baza çağırışının gecikməsi aradan qalxır Mövzu 3 — cavab açarı 1-B2-C3-B4-A5-C6-A7-D8-C9-A10-E11-A12-B13-A14-D15-D 16-B17-D18-D19-E20-E21-C22-B23-C24-E25-A26-B27-C28-E29-E30-B 31-B32-C33-C34-B35-D36-D37-E38-A39-E40-D41-D42-E43-A44-A45-C"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 136,
+    "topic": 4,
+    "number": 1,
+    "question": "Virtuallaşdırmada VM escape anlayışı nəyi ifadə edir?",
+    "options": {
+      "A": "Guest-in öz daxilində adi tətbiqi yenidən başlatmasını",
+      "B": "Planlı texniki xidmət zamanı VM-in başqa hosta köçürülməsini",
+      "C": "VM-in testdən istehsal şəbəkəsinə köçürülməsini",
+      "D": "Snapshot-dan yeni virtual disk yaradılmasını",
+      "E": "Guest-dən hipervizora və ya hosta nəzarəti ələ keçirməyə imkan verən boşluğu"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 137,
+    "topic": 4,
+    "number": 2,
+    "question": "cloud-init əsasən nə üçün istifadə olunur?",
+    "options": {
+      "A": "Fiziki cihazın yaddaşa çıxışını məhdudlaşdırmaq üçün",
+      "B": "VM-lərin hostdan təcrid edilməsi üçün",
+      "C": "Hipervizorun fiziki nüvələri planlaşdırması üçün",
+      "D": "Snapshot-un ayrı saxlamaya köçürülməsi üçün",
+      "E": "İlk açılışda VM-in daxildən ilkin konfiqurasiyası üçün"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 138,
+    "topic": 4,
+    "number": 3,
+    "question": "Paylaşılan prosessor keşi üzərindən dolayı məlumat sızması hansı riskdir?",
+    "options": {
+      "A": "Image versiyasının köhnəlməsi",
+      "B": "Yan kanal (side-channel) riski",
+      "C": "Tətbiq ardıcıllığının pozulması",
+      "D": "VM-in adi yenidən başlaması",
+      "E": "Kvota çatışmazlığı"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 139,
+    "topic": 4,
+    "number": 4,
+    "question": "Image-in əsas rolu hansıdır?",
+    "options": {
+      "A": "VM-in açılması üçün şablon olmaq",
+      "B": "Hostun fiziki nüvələrini ayırmaq",
+      "C": "VM-in CPU gözləməsini hesablamaq",
+      "D": "Diskin hər yazı əməliyyatını ölçmək",
+      "E": "Bərpa sınaqlarının cədvəlini idarə etmək"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 140,
+    "topic": 4,
+    "number": 5,
+    "question": "İlkin konfiqurasiya zamanı user data-ya parol yazılması niyə təhlükəlidir?",
+    "options": {
+      "A": "User data VM daxilində metadata vasitəsilə oxuna bilir",
+      "B": "User data yalnız fiziki şəbəkə kartında saxlanılır",
+      "C": "User data prosessorun SMT axınlarını başqa müştəriyə ayırır",
+      "D": "User data hər halda snapshot-ları ictimai paylaşır",
+      "E": "User data hipervizorun aparat təcridini avtomatik söndürür"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 141,
+    "topic": 4,
+    "number": 6,
+    "question": "Lokal hipervizorda VM və onun snapshot delta faylı eyni diskdədir. Disk sıradan çıxarsa, hansı nəticə gözlənilir?",
+    "options": {
+      "A": "Yalnız VM-in vCPU konfiqurasiyası itər",
+      "B": "Snapshot VM-i avtomatik başqa diskdə yenidən yaradar",
+      "C": "VM və snapshot birlikdə itir",
+      "D": "Hipervizor image kataloqundan itmiş məlumatları mütləq bərpa edər",
+      "E": "Snapshot fiziki diskdən asılı olmadığı üçün mütləq qalır"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 142,
+    "topic": 4,
+    "number": 7,
+    "question": "Backup nüsxələrinin giriş icazəsinin mənbənin icazəsindən ayrılmasının məqsədi nədir?",
+    "options": {
+      "A": "Snapshot-ların fiziki host seçimini avtomatlaşdırmaq",
+      "B": "Image-in prosessor arxitekturasını dəyişmək",
+      "C": "Hücumçu mənbə ilə nüsxəni birgə silə bilməsin",
+      "D": "Guest-in virtual disk sürücüsünü əvəz etmək",
+      "E": "CPU overcommit-dən yaranan gözləməni azaltmaq"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 143,
+    "topic": 4,
+    "number": 8,
+    "question": "IOMMU-nun əsas funksiyası nədir?",
+    "options": {
+      "A": "CPU kreditlərini toplamaq",
+      "B": "VM üçün host seçmək",
+      "C": "Image versiyalarını paylaşmaq",
+      "D": "Cihazların yaddaşa birbaşa çıxışını məhdudlaşdırmaq",
+      "E": "Guest OS paketlərini quraşdırmaq"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 144,
+    "topic": 4,
+    "number": 9,
+    "question": "Tətbiqin və asılılıqların image-ə əvvəlcədən yerləşdirilməsinin əsas nəticəsi hansıdır?",
+    "options": {
+      "A": "Açılış yavaşlayır, image versiyalarına ehtiyac qalmır",
+      "B": "VM tez açılır, hər dəyişiklik yeni image tələb edir",
+      "C": "VM hədəf platformanın sürücülərinə ehtiyac duymur",
+      "D": "Guest OS yamaqları tamamilə provayderə keçir",
+      "E": "Disk snapshot-u avtomatik tətbiq ardıcıllıqlı olur"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 145,
+    "topic": 4,
+    "number": 10,
+    "question": "vCPU VM-ə nə kimi təqdim olunur?",
+    "options": {
+      "A": "Ayrılmış disk bloku",
+      "B": "Şəbəkə buferi",
+      "C": "Fiziki RAM səhifəsi",
+      "D": "OS disk şablonu",
+      "E": "Məntiqi prosessor"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 146,
+    "topic": 4,
+    "number": 11,
+    "question": "IaaS-da guest OS və onun üzərindəki proqramlar kimin məsuliyyətində qalır?",
+    "options": {
+      "A": "Fiziki şəbəkə operatorunun",
+      "B": "Bulud provayderinin",
+      "C": "Müştərinin",
+      "D": "Hipervizor istehsalçısının",
+      "E": "Aparat prosessorunun istehsalçısının"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 147,
+    "topic": 4,
+    "number": 12,
+    "question": "Yaddaş overcommit-i tətbiq edilən hostda yaddaş çatmayanda əsas risk nədir?",
+    "options": {
+      "A": "Guest OS yamaqlarının avtomatik quraşdırılması",
+      "B": "Image-in başqa arxitekturaya çevrilməsi",
+      "C": "VM-in fiziki RAM-ının avtomatik artması",
+      "D": "Bütün VM-lərin metadata-sının silinməsi",
+      "E": "Performansın kəskin düşməsi"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 148,
+    "topic": 4,
+    "number": 13,
+    "question": "Ayrılmış host paylaşılan hostdakı VM-dən əsasən nə ilə fərqlənir?",
+    "options": {
+      "A": "Snapshot-lar ayrıca uğursuzluq domenində saxlanılır",
+      "B": "VM-lərin disk formatı avtomatik bütün platformalara uyğunlaşır",
+      "C": "Fiziki server bir müştəriyə ayrılır, qonşu yoxdur",
+      "D": "Guest OS-lər bir paylaşılan nüvə ilə əvəz olunur",
+      "E": "Hər VM hipervizor olmadan birbaşa aparatda işləyir"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 149,
+    "topic": 4,
+    "number": 14,
+    "question": "Eyni VM daxilində iki etibarsız iş ayrı konteynerlərdə işləyir. Bu iki işin bir-birindən təcridi əsasən hansı sərhədə söykənir?",
+    "options": {
+      "A": "Image kataloqunun versiya nömrələrinə",
+      "B": "Konteyner mexanizmləri sərhədinə",
+      "C": "Disk snapshot-larının saxlama müddətinə",
+      "D": "Hər iş üçün ayrıca fiziki hosta",
+      "E": "Hər iş üçün ayrıca hipervizor sərhədinə"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 150,
+    "topic": 4,
+    "number": 15,
+    "question": "Type 2 hipervizor hansı qatın üzərində işləyir?",
+    "options": {
+      "A": "Host əməliyyat sisteminin",
+      "B": "Guest tətbiqinin",
+      "C": "Virtual şəbəkə interfeysinin",
+      "D": "Disk snapshot-unun",
+      "E": "Virtual firmware-in"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 151,
+    "topic": 4,
+    "number": 16,
+    "question": "Provisioning-də copy-on-write üsulu ilə yeni disk necə hazırlanır?",
+    "options": {
+      "A": "VM-dəki yazıları birbaşa baza image-ə əlavə edir",
+      "B": "Image metadata-sını guest nüvəsi ilə əvəz edir",
+      "C": "Hər dəyişiklik üçün ayrıca fiziki host yaradır",
+      "D": "Disk image-ə istinad edib yalnız fərqi yazır",
+      "E": "Hər açılışda bütün image-i RAM-a köçürür"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 152,
+    "topic": 4,
+    "number": 17,
+    "question": "Disk snapshot-u əsasən nəyi qeyd edir?",
+    "options": {
+      "A": "Diskin müəyyən an üçün vəziyyətini",
+      "B": "VM-in bütün şəbəkə əlaqələrinin tarixçəsini",
+      "C": "Guest OS-in bütün gələcək dəyişikliklərini",
+      "D": "Hesabın VM yaratma kvotasını",
+      "E": "Hostun illik resurs istifadə tarixçəsini"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 153,
+    "topic": 4,
+    "number": 18,
+    "question": "Birbaşa cihaz təyinatının paravirtual I/O ilə müqayisədə əsas çeviklik məhdudiyyəti nədir?",
+    "options": {
+      "A": "Image-in hər açılışda tam kopyalanmasının məcburi olması",
+      "B": "VM-in yalnız host OS-in adi proqramı kimi işləməsi",
+      "C": "VM konkret fiziki cihaza bağlanır və başqa hosta köçürülməsi çətinləşir",
+      "D": "Guest-in hər əməliyyatda real cihazı proqramla təqlid etməsi",
+      "E": "CPU-nun yalnız toplanmış kreditlərlə işləməsi"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 154,
+    "topic": 4,
+    "number": 19,
+    "question": "Paravirtual I/O üçün guest-də nə olmalıdır?",
+    "options": {
+      "A": "Bütün disklərin tam nüsxəsi",
+      "B": "Hipervizorsuz açılış rejimi",
+      "C": "RAM vəziyyətinin snapshot-u",
+      "D": "Ayrıca fiziki host",
+      "E": "Paravirtual sürücü (virtio)"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 155,
+    "topic": 4,
+    "number": 20,
+    "question": "Type 1 hipervizor mühazirədə hansı mühit üçün tipik seçim kimi göstərilir?",
+    "options": {
+      "A": "Noutbukda müvəqqəti guest OS sınaqları",
+      "B": "Host OS üzərində gündəlik ofis tətbiqləri",
+      "C": "Şəxsi noutbukda tədris və test",
+      "D": "Şəxsi kompüterdə proqram inkişafı təcrübələri",
+      "E": "Server mühitləri və bulud hostları"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 156,
+    "topic": 4,
+    "number": 21,
+    "question": "Tətbiqin darboğazı disk I/O-sudur. Yalnız VM-in vCPU sayını artırmaq barədə hansı fikir düzgündür?",
+    "options": {
+      "A": "Paravirtual sürücünü avtomatik birbaşa təyinatla əvəz edir",
+      "B": "Blok diski avtomatik yerli RAM-a çevirir",
+      "C": "Darboğaz diskdədirsə, vCPU artırmaq onu həll etmir",
+      "D": "Guest OS-in diskə çıxışını dayandıraraq performansı artırır",
+      "E": "Disk gecikməsini mütləq aradan qaldırır"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 157,
+    "topic": 4,
+    "number": 22,
+    "question": "VM yaratma sorğusunda kvota yoxlaması hansı suala cavab verir?",
+    "options": {
+      "A": "VM-in firmware-i hansı bootloader-i işə salmalıdır?",
+      "B": "Hesaba bu qədər resurs ayrıla bilərmi?",
+      "C": "Guest OS hansı paketləri ilk açılışda quraşdırmalıdır?",
+      "D": "Tətbiqin hansı portu istifadəçilərə açılmalıdır?",
+      "E": "VM-in virtual diski hansı image-dən hazırlanmalıdır?"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 158,
+    "topic": 4,
+    "number": 23,
+    "question": "Noutbukda host OS-in proqramı kimi işləyən hipervizorda iki VM açıqdır. Host OS yeniləmə üçün yenidən başladıqda nə baş verər?",
+    "options": {
+      "A": "VM-lər host OS-dən asılı olmadan işləməyə davam edir",
+      "B": "Yalnız çox CPU istifadə edən VM dayanır",
+      "C": "VM-lər avtomatik başqa fiziki hosta köçürülür",
+      "D": "Yalnız snapshot-u olmayan VM dayanır",
+      "E": "VM-lərin hamısı host OS ilə birlikdə dayanır"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 159,
+    "topic": 4,
+    "number": 24,
+    "question": "İş yükü provayder hipervizoru olmadan birbaşa host aparatında işləməlidir. Hansı icra mühiti uyğundur?",
+    "options": {
+      "A": "Host OS üzərində Type 2 VM",
+      "B": "Provayder hipervizorlu ayrılmış host",
+      "C": "Paylaşılan hostda Type 1 VM",
+      "D": "Bare-metal (hipervizorsuz) server",
+      "E": "Type 1 VM daxilində konteyner"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 160,
+    "topic": 4,
+    "number": 25,
+    "question": "VM-lər arasında resurs bölgüsünü və təcridi hansı qat idarə edir?",
+    "options": {
+      "A": "Bootloader",
+      "B": "Hipervizor",
+      "C": "Image kataloqu",
+      "D": "cloud-init",
+      "E": "Monitorinq agenti"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 161,
+    "topic": 4,
+    "number": 26,
+    "question": "Virtuallaşdırmada host nədir?",
+    "options": {
+      "A": "VM-in virtual şəbəkə kartı",
+      "B": "Diskin anlıq vəziyyətinin qeydi",
+      "C": "VM-in daxilindəki tətbiq",
+      "D": "İlkin konfiqurasiya skripti",
+      "E": "VM-ləri daşıyan fiziki kompüter"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 162,
+    "topic": 4,
+    "number": 27,
+    "question": "İşləyən verilənlər bazasının disk snapshot-u niyə tətbiq ardıcıllığına avtomatik zəmanət vermir?",
+    "options": {
+      "A": "Disk snapshot-u hər halda RAM-ın tam nüsxəsini saxlayır",
+      "B": "Snapshot qəza ardıcıllıqlıdır, tətbiq ardıcıllığı yox",
+      "C": "Snapshot verilənlər bazası sorğularını yenidən icra edir",
+      "D": "Snapshot alınarkən guest OS həmişə tam silinir",
+      "E": "Snapshot yalnız verilənlər bazasının istifadəçi parollarını saxlayır"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 163,
+    "topic": 4,
+    "number": 28,
+    "question": "CPU overcommit nə deməkdir?",
+    "options": {
+      "A": "Hər VM ayrıca fiziki nüvə alır",
+      "B": "Hostun fiziki axın sayı avtomatik artır",
+      "C": "vCPU cəmi fiziki axından çox ola bilər",
+      "D": "Guest OS fiziki axınları idarə edir",
+      "E": "VM yalnız baza CPU səviyyəsində işləyir"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 164,
+    "topic": 4,
+    "number": 29,
+    "question": "VM-də yaddaş təcridi hansı təsvirə uyğundur?",
+    "options": {
+      "A": "Guest yalnız hipervizorun ona xəritələdiyi yaddaş sahəsinə çata bilir",
+      "B": "Guest bütün VM-lərin yaddaş ünvanlarını sərbəst istifadə edir",
+      "C": "Guest hər sorğuda digər VM-lərin səhifə cədvəlini dəyişir",
+      "D": "Guest ünvanları yalnız image kataloqundakı fayllara çevrilir",
+      "E": "Guest yaddaşını yalnız tətbiqin giriş parolu məhdudlaşdırır"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 165,
+    "topic": 4,
+    "number": 30,
+    "question": "Yalnız buludun idarəetmə API-si əlçatmazdır; işləyən VM-lərin məlumat yolu sağlamdır. Hansı nəticə gözlənilir?",
+    "options": {
+      "A": "Hipervizor API əvəzinə istifadəçi icazəsini özü yoxlayar",
+      "B": "Mövcud VM-lər dayanır, yeni VM yaradılması davam edir",
+      "C": "Bütün guest OS-lər dərhal yenidən başlayar",
+      "D": "İşləyən VM-lər davam edə bilər, yeni resursların yaradılması məhdudlaşır",
+      "E": "VM-lər avtomatik bare-metal rejiminə keçər"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 166,
+    "topic": 4,
+    "number": 31,
+    "question": "CPU overcommit-in xərc və performans baxımından əsas trade-off-u hansıdır?",
+    "options": {
+      "A": "Xərc artır, amma image-lərin saxlanmasına ehtiyac qalmır",
+      "B": "Başlanğıc sürəti azalır, lakin guest yamaqları avtomatlaşır",
+      "C": "Disk uyğunluğu artır, lakin CPU kreditləri ləğv edilir",
+      "D": "Xərc azalır və hər VM-in fiziki nüvəsi zəmanətli olur",
+      "E": "Xərc azalır, performans proqnozlaşdırılmaz olur"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 167,
+    "topic": 4,
+    "number": 32,
+    "question": "Niyə yalnız Type 1 etiketi hipervizorun həmişə daha sürətli və təhlükəsiz olduğunu sübut etmir?",
+    "options": {
+      "A": "Type 1 hipervizor hər halda host OS-in proqramı kimi işləyir",
+      "B": "Type 1 hipervizor disk və şəbəkə cihazlarını idarə edə bilmir",
+      "C": "Type 1 hipervizor yamaq ehtiyacını avtomatik aradan qaldırır",
+      "D": "Üstünlük konkret arxitektura və konfiqurasiyadan asılıdır, təsnifatdan yox",
+      "E": "Type 1 hipervizor bütün guest OS-ləri bir nüvəyə birləşdirir"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 168,
+    "topic": 4,
+    "number": 33,
+    "question": "Gecəlik snapshot-lar üçün saxlama müddəti təyin edilməməsi hansı idarəetmə problemi yaradır?",
+    "options": {
+      "A": "Köhnə snapshot-lar yığılır və görünməz xərcə çevrilir",
+      "B": "Image versiyaları avtomatik vahid versiyada birləşir",
+      "C": "Snapshot-lar avtomatik silinərək bərpa imkanını itirir",
+      "D": "CPU kreditləri snapshot sayına görə azalır",
+      "E": "Guest OS yamaqları yalnız snapshot daxilində quraşdırılır"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 169,
+    "topic": 4,
+    "number": 34,
+    "question": "Eyni vCPU sayına malik iki platformadakı VM-lərin hesablama gücü necə müqayisə edilməlidir?",
+    "options": {
+      "A": "Yalnız snapshot-ların sayına əsasən",
+      "B": "Öz iş yükü ilə ölçülmüş nəticəyə əsasən",
+      "C": "Yalnız hər VM-in vCPU sayına əsasən",
+      "D": "Yalnız guest OS-in versiya nömrəsinə əsasən",
+      "E": "Yalnız image faylının ölçüsünə əsasən"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 170,
+    "topic": 4,
+    "number": 35,
+    "question": "Paylaşılan hostda başqa iş yükünün sizin VM-in performansına təsiri necə adlanır?",
+    "options": {
+      "A": "Qəza ardıcıllığı",
+      "B": "İlkin konfiqurasiya",
+      "C": "Səs-küylü qonşu",
+      "D": "VM-dən çıxış",
+      "E": "Canlı köçürmə"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 171,
+    "topic": 4,
+    "number": 36,
+    "question": "VM üçün ehtiyat nüsxə planı hazırlanır. Nüsxənin bərpa üçün işlək olduğunu yoxlamaq üçün hansı addım lazımdır?",
+    "options": {
+      "A": "Bərpanı müntəzəm sınamaq",
+      "B": "VM-in vCPU sayını müntəzəm artırmaq",
+      "C": "Guest-in portlarını müntəzəm açmaq",
+      "D": "Image-in adını müntəzəm dəyişdirmək",
+      "E": "Snapshot-u mənbə disklə eyni yerdə saxlamaq"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 172,
+    "topic": 4,
+    "number": 37,
+    "question": "Tam emulyasiyada virtual cihaz necə təqdim olunur?",
+    "options": {
+      "A": "Guest sürücüsü cihazı məlumat yolundan çıxarır",
+      "B": "Fiziki cihaz VM-ə birbaşa ayrılır",
+      "C": "Real cihaz proqramla təqlid olunur",
+      "D": "Şəbəkə kartı image şablonuna çevrilir",
+      "E": "Cihaz yalnız metadata vasitəsilə işləyir"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 173,
+    "topic": 4,
+    "number": 38,
+    "question": "Qızıl image hansı baza image-idir?",
+    "options": {
+      "A": "Yalnız RAM vəziyyətini saxlayan",
+      "B": "Təsdiqlənmiş yamaqlı baza image-i",
+      "C": "Fiziki hostun firmware-ini əvəz edən",
+      "D": "Hər açılışda parol yaradan",
+      "E": "Yalnız CPU kreditlərini saxlayan"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 174,
+    "topic": 4,
+    "number": 39,
+    "question": "x86_64 image-in ARM64 hostda native işləməməsi daşınmanın hansı uyğunluq şərtinə aiddir?",
+    "options": {
+      "A": "Prosessor arxitekturasına",
+      "B": "UEFI və BIOS açılış rejiminə",
+      "C": "Disk formatına",
+      "D": "Metadata xidmətinə",
+      "E": "Virtual cihaz sürücülərinə"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 175,
+    "topic": 4,
+    "number": 40,
+    "question": "Niyə yalnız hipervizor quraşdırılmış server otağı hələ private cloud sayılmır?",
+    "options": {
+      "A": "VM-lərin bir-birinin yaddaşını görməsi də lazımdır",
+      "B": "Özünəxidmət, elastiklik və ölçmə də lazımdır",
+      "C": "Hipervizorun yalnız Type 2 olması da lazımdır",
+      "D": "Hər VM üçün fərqli əməliyyat sistemi də lazımdır",
+      "E": "Fiziki serverlərin mütləq başqa təşkilata aid olması lazımdır"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 176,
+    "topic": 4,
+    "number": 41,
+    "question": "Planlı texniki xidmət zamanı canlı köçürmə barədə hansı fikir düzgündür?",
+    "options": {
+      "A": "Zona nasazlığına qarşı yüksək əlçatanlığa zəmanət verir",
+      "B": "Bütün konfiqurasiyaların canlı köçürülməsinə zəmanət verir",
+      "C": "Host qəzasına qarşı yüksək əlçatanlığa zəmanət verir",
+      "D": "Planlı texniki xidməti gizlədir, lakin host qəzasına və zona nasazlığına zəmanət deyil",
+      "E": "Tətbiq xətalarının xidmətə təsir etməyəcəyinə zəmanət verir"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 177,
+    "topic": 4,
+    "number": 42,
+    "question": "Minimal image-dən açılışda konfiqurasiya yanaşmasının əsas riski hansıdır?",
+    "options": {
+      "A": "Bütün VM-lər eyni fiziki diskə birbaşa bağlanır",
+      "B": "Açılış zamanı metadata xidməti avtomatik hipervizora çevrilir",
+      "C": "Guest-də paket quraşdırılması texniki olaraq mümkün deyil",
+      "D": "Açılış yavaşlayır, xarici depo əlçatmaz ola bilər",
+      "E": "Image-ə hər dəyişiklik üçün bütün tətbiqin yerləşdirilməsi zəruridir"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 178,
+    "topic": 4,
+    "number": 43,
+    "question": "Bir fiziki serverdə tətbiqlər ayrı VM-lərə bölünüb. Pik yükdə həmin serverin ümumi tutumu yenə çatmır. Niyə virtuallaşdırma bunu təkbaşına həll etməyib?",
+    "options": {
+      "A": "Fiziki server hələ birdir, VM-lərə bölmək yeni tutum yaratmır",
+      "B": "Hipervizor yalnız snapshot yaradıldıqdan sonra resurs bölür",
+      "C": "Ayrı guest OS-lər mövcud prosessoru istifadə edə bilmir",
+      "D": "VM-lərə bölünmə mütləq bütün tətbiqləri eyni OS-də saxlayır",
+      "E": "Hər yeni VM hosta yeni fiziki prosessor əlavə edir"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 179,
+    "topic": 4,
+    "number": 44,
+    "question": "VM provisioning hansı prosesi əhatə edir?",
+    "options": {
+      "A": "Yalnız vCPU-ların icra növbəsini",
+      "B": "Yalnız tətbiqin sorğu emalını",
+      "C": "Yalnız diskin snapshot-unun alınmasını",
+      "D": "Sorğudan hazır VM-ə qədər proses",
+      "E": "Yalnız hostun firmware yeniləməsini"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 180,
+    "topic": 4,
+    "number": 45,
+    "question": "Guest OS hansı əməliyyat sistemidir?",
+    "options": {
+      "A": "Type 2 hipervizorun üzərində işlədiyi OS",
+      "B": "Fiziki şəbəkə cihazının OS-i",
+      "C": "Bütün hostları idarə edən OS",
+      "D": "VM daxilindəki əməliyyat sistemi",
+      "E": "Image kataloqunu saxlayan OS Mövzu 4 — cavab açarı 1-E2-E3-B4-A5-A6-C7-C8-D9-B10-E11-C12-E13-C14-B15-A 16-D17-A18-C19-E20-E21-C22-B23-E24-D25-B26-E27-B28-C29-A30-D 31-E32-D33-A34-B35-C36-A37-C38-B39-A40-B41-D42-D43-A44-D45-D"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 181,
+    "topic": 5,
+    "number": 1,
+    "question": "Bir hostda konteynerlər bir-birinin proseslərini görmür. Bu, onların CPU və yaddaş istifadəsinin də məhdud olduğu deməkdirmi?",
+    "options": {
+      "A": "Bəli, hər image ayrıca fiziki prosessor təmin edir",
+      "B": "Xeyr, namespace görünüşü ayırır, resurs istifadəsini isə cgroups məhdudlaşdırır",
+      "C": "Bəli, mount namespace yaddaş həcmini özü bölür",
+      "D": "Bəli, PID namespace CPU kvotasını özü təyin edir",
+      "E": "Xeyr, amma port yayımlama resurs limitini əvəz edir"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 182,
+    "topic": 5,
+    "number": 2,
+    "question": "Bazanın məlumatı hostun lokal volume-unda saxlanır. Hostun diski sıradan çıxarsa, volume niyə ayrıca backup-ı əvəz etmir?",
+    "options": {
+      "A": "Volume konteyner yenilənəndə həmişə silinir",
+      "B": "Volume host nasazlığında avtomatik registry-yə köçürülür",
+      "C": "Volume hostun diskindədir, backup ayrıca prosesdir",
+      "D": "Volume yalnız image-in metadata-sını saxlayır",
+      "E": "Volume yalnız konteynerin yaddaşında saxlanır"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 183,
+    "topic": 5,
+    "number": 3,
+    "question": "Konteynerdə proses nömrələrini hansı namespace ayırır?",
+    "options": {
+      "A": "Network namespace",
+      "B": "Mount namespace",
+      "C": "UTS namespace",
+      "D": "PID namespace",
+      "E": "User namespace"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 184,
+    "topic": 5,
+    "number": 4,
+    "question": "Konteyner image-i nədir?",
+    "options": {
+      "A": "Yalnız oxunan qatlı şablon",
+      "B": "Hostun tam disk ehtiyat nüsxəsi",
+      "C": "Konteynerləri birləşdirən virtual şəbəkə",
+      "D": "Tətbiqin işləyərkən yazdığı müvəqqəti qat",
+      "E": "CPU istifadəsini məhdudlaşdıran nüvə mexanizmi"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 185,
+    "topic": 5,
+    "number": 5,
+    "question": "Əvvəlki image versiyasına qayıdış zamanı hansı yoxlama ayrıca vacibdir?",
+    "options": {
+      "A": "Yalnız əvvəlki image-in qatlarının ümumi sayı",
+      "B": "Verilənlər bazası sxeminin, məlumatın və konfiqurasiyanın əvvəlki versiya ilə uyğunluğu",
+      "C": "Yalnız konteynerin cari daxili IP ünvanı",
+      "D": "Yalnız Compose faylındakı servis adlarının sırası",
+      "E": "Yalnız image-in registry-də yüklənmə vaxtı"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 186,
+    "topic": 5,
+    "number": 6,
+    "question": "Registry-də tag yeni image-ə yönəldildikdə həmin tag-dən əvvəl yaradılmış işləyən konteynerlə nə baş verir?",
+    "options": {
+      "A": "Yenilənmə üçün konteyner əvəz edilməlidir",
+      "B": "Konteyner avtomatik dayandırılıb yenidən yaradılır",
+      "C": "Konteyner avtomatik yeni hosta köçürülür",
+      "D": "Konteynerin qatları dərhal yeni image-lə əvəz olunur",
+      "E": "Konteynerin volume-u yeni image-ə daxil edilir"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 187,
+    "topic": 5,
+    "number": 7,
+    "question": "Dockerfile-da WORKDIR təlimatının vəzifəsi nədir?",
+    "options": {
+      "A": "Hostun portunu yayımlamaq",
+      "B": "Əsas prosesi işə salmaq",
+      "C": "Image-i registry-yə göndərmək",
+      "D": "Baza image-i seçmək",
+      "E": "İş qovluğunu təyin etmək"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 188,
+    "topic": 5,
+    "number": 8,
+    "question": "Bir konteynerin yaddaş limiti daxilində tələbatı ödənmir, digərinin CPU kvotası tükənir. Nəticələr hansı variantda düzgün müqayisə edilir?",
+    "options": {
+      "A": "Birincidə yalnız icra ləngiyir, ikincidə proses mütləq öldürülür",
+      "B": "Hər iki konteynerə avtomatik əlavə resurs verilir",
+      "C": "Hər iki konteyner avtomatik başqa hosta köçürülür",
+      "D": "Hər ikisində proses mütləq dərhal öldürülür",
+      "E": "Birincidə proses öldürülə bilər, ikincidə yalnız icra ləngiyir"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 189,
+    "topic": 5,
+    "number": 9,
+    "question": "Bütün servislər bir hostda Compose ilə işləyir və host sıradan çıxır. Compose-un hansı məhdudiyyəti burada üzə çıxır?",
+    "options": {
+      "A": "Eyni hostda birdən çox konteyner işlədə bilmir",
+      "B": "İstifadəçi şəbəkəsi yaratmağı dəstəkləmir",
+      "C": "Compose bir host üçündür, host itəndə servisləri başqa hosta köçürmür",
+      "D": "Registry-dən image çəkilməsini qadağan edir",
+      "E": "Konteynerlərə volume qoşmağa icazə vermir"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 190,
+    "topic": 5,
+    "number": 10,
+    "question": "Mount namespace hansı resursu ayırır?",
+    "options": {
+      "A": "Hostname-i",
+      "B": "Fayl sistemini",
+      "C": "CPU kvotasını",
+      "D": "Şəbəkə interfeyslərini",
+      "E": "Proses nömrələrini"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 191,
+    "topic": 5,
+    "number": 11,
+    "question": "Docker-in standart restart siyasəti no olduqda dayanmış konteyner üçün nə gözlənilir?",
+    "options": {
+      "A": "Hər beş saniyədə yenidən başladılır",
+      "B": "Dayanan kimi onun volume-u silinir",
+      "C": "Avtomatik başqa hosta köçürülür",
+      "D": "Registry-dəki latest image-dən yenilənir",
+      "E": "Konteyner avtomatik yenidən başladılmır"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 192,
+    "topic": 5,
+    "number": 12,
+    "question": "docker run -d ilə başladılmış konteyner terminal bağlananda niyə dayanmağa məcbur deyil?",
+    "options": {
+      "A": "CLI bağlananda konteyner yeni nüvə yaradır",
+      "B": "Daemon onu arxa planda icra edir",
+      "C": "-d konteyneri virtual maşına çevirir",
+      "D": "Registry terminalın yerinə əsas prosesi icra edir",
+      "E": "Volume tətbiqin prosesini işlək saxlayır"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 193,
+    "topic": 5,
+    "number": 13,
+    "question": "Default bridge ilə istifadəçinin yaratdığı bridge şəbəkəsində konteynerlərin bir-birini tapması necə fərqlənir?",
+    "options": {
+      "A": "Hər iki şəbəkədə əlaqə yalnız hostda yayımlanmış portdan keçir",
+      "B": "Hər iki şəbəkədə adların həlli registry vasitəsilə aparılır",
+      "C": "İstifadəçi şəbəkəsində əlaqə üçün konteynerlər host rejiminə keçir",
+      "D": "Default bridge-də avtomatik DNS, istifadəçi şəbəkəsində yalnız IP işləyir",
+      "E": "Default bridge-də yalnız IP ilə, istifadəçi bridge-də isə avtomatik DNS ilə adla tapılır"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 194,
+    "topic": 5,
+    "number": 14,
+    "question": "Dockerfile-ın əsas rolu nədir?",
+    "options": {
+      "A": "Konteynerlər arasında DNS sorğularını həll etmək",
+      "B": "Verilənlər bazasının ehtiyat nüsxəsini saxlamaq",
+      "C": "Hostun yaddaş istifadəsini ölçmək",
+      "D": "Image-in necə qurulacağını təsvir etmək",
+      "E": "İşləyən konteynerin IP ünvanını dəyişmək"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 195,
+    "topic": 5,
+    "number": 15,
+    "question": "Bind mount nə edir?",
+    "options": {
+      "A": "Hostun qovluğunu konteynerə qoşur",
+      "B": "Konteyner portunu host portuna bağlayır",
+      "C": "Registry-dən baza image-i çəkir",
+      "D": "Image-i dəyişməz digest-ə bağlayır",
+      "E": "Konteynerin CPU istifadəsinə kvota qoyur"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 196,
+    "topic": 5,
+    "number": 16,
+    "question": "Compose-da baza prosesi başlayıb, amma hələ qoşulma qəbul etmir. Veb servisin başlamazdan əvvəl bazanın hazırlığını gözləməsi üçün nə lazımdır?",
+    "options": {
+      "A": "Bazanın portunu bütün host ünvanlarında yayımlamaq",
+      "B": "healthcheck və condition: service_healthy",
+      "C": "Verilənlər qovluğunu tmpfs-ə köçürmək",
+      "D": "Yalnız şərtsiz depends_on",
+      "E": "Baza image-inə latest tag-i vermək"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 197,
+    "topic": 5,
+    "number": 17,
+    "question": "Compose faylında tətbiqin servisləri hansı bölmədə təsvir edilir?",
+    "options": {
+      "A": "networks",
+      "B": "volumes",
+      "C": "configs",
+      "D": "secrets",
+      "E": "services"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 198,
+    "topic": 5,
+    "number": 18,
+    "question": "Dockerfile-da EXPOSE təlimatı portun əlçatanlığına necə təsir edir?",
+    "options": {
+      "A": "Host firewall-unda port üçün giriş qaydası yaradır",
+      "B": "Portu yalnız 127.0.0.1 ünvanında yayımlayır",
+      "C": "Portu avtomatik verilənlər bazasına bağlayır",
+      "D": "Portu hostun bütün ünvanlarında yayımlayır",
+      "E": "Portu açmır, yalnız sənədləşdirmə rolunu oynayır"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 199,
+    "topic": 5,
+    "number": 19,
+    "question": "Podman-ın Docker-in standart daemon əsaslı quruluşundan fərqi hansı variantda verilib?",
+    "options": {
+      "A": "Bütün konteynerlərin ayrıca hipervizor daşımasını tələb edir",
+      "B": "Hər konteyner üçün tam guest OS tələb edir",
+      "C": "Daemon yoxdur, eyni Linux mexanizmlərindən istifadə edir",
+      "D": "Yalnız image saxlayır, konteyner işlətmir",
+      "E": "Linux nüvəsinin təcrid mexanizmlərindən istifadə etmir"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 200,
+    "topic": 5,
+    "number": 20,
+    "question": "Docker-in klient–server arxitekturasında docker CLI hansı rolu oynayır?",
+    "options": {
+      "A": "Konteynerləri yaradan daemon",
+      "B": "Davamlı məlumat saxlayan volume",
+      "C": "İstifadəçinin əmr verdiyi klient",
+      "D": "Image-ləri paylayan registry",
+      "E": "Tətbiqi işlədən guest nüvəsi"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 201,
+    "topic": 5,
+    "number": 21,
+    "question": "Docker-də -p 8080:80 yazısı hansı port əlaqəsini təsvir edir?",
+    "options": {
+      "A": "Hostun 80 portundan konteynerin 8080 portuna yönləndirməni",
+      "B": "Konteynerin 80 portunu yalnız registry-yə açmağı",
+      "C": "Hostun 8080 portuna gələn trafik konteynerin 80 portuna yönləndirilir",
+      "D": "Hostun bütün portlarını konteynerin 8080 portuna bağlamağı",
+      "E": "İki konteynerin 8080 portlarını bir-birinə bağlamağı"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 202,
+    "topic": 5,
+    "number": 22,
+    "question": "docker push əməliyyatının nəticəsi nədir?",
+    "options": {
+      "A": "Registry-dən image lokal hosta çəkilir",
+      "B": "Dockerfile-dan yeni image qurulur",
+      "C": "Konteynerin yazıla bilən qatı silinir",
+      "D": "Image registry-yə göndərilir",
+      "E": "Image-dən işləyən konteyner yaradılır"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 203,
+    "topic": 5,
+    "number": 23,
+    "question": "Çoxplatformalı image-də amd64 və arm64 hostları üçün uyğunluq necə təmin edilir?",
+    "options": {
+      "A": "Bir tag altında hər arxitektura üçün ayrı variant olur və host özünə uyğunu seçir",
+      "B": "Eyni maşın kodu bütün prosessorlarda dəyişmədən icra olunur",
+      "C": "Hostun prosessor arxitekturası image-ə uyğun dəyişdirilir",
+      "D": "Registry hər host üçün ayrıca Linux nüvəsi açır",
+      "E": "Volume prosessor təlimatlarını digər arxitekturaya çevirir"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 204,
+    "topic": 5,
+    "number": 24,
+    "question": "Cgroups-un əsas vəzifəsi hansıdır?",
+    "options": {
+      "A": "Registry-də image qatlarını saxlamaq",
+      "B": "Konteynerin kök qovluğunu image-dən qurmaq",
+      "C": "Resurs istifadəsinin həddini idarə etmək",
+      "D": "Image versiyasına insan üçün ad vermək",
+      "E": "Servislərin adlarını IP ünvanlarına çevirmək"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 205,
+    "topic": 5,
+    "number": 25,
+    "question": "web və db eyni istifadəçi bridge şəbəkəsindədir. Bazanı xaricə açmadan web-in ona qoşulması üçün hansı üsul uyğundur?",
+    "options": {
+      "A": "db-nin none şəbəkə rejiminə keçirilməsi",
+      "B": "Portu yayımlamadan web-in bazaya db adı ilə qoşulması",
+      "C": "web-in bazaya registry ünvanı vasitəsilə qoşulması",
+      "D": "Baza portunun yalnız internet ünvanında yayımlanması",
+      "E": "Baza portunun IP göstərilmədən hostda yayımlanması"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 206,
+    "topic": 5,
+    "number": 26,
+    "question": "tmpfs-də saxlanan məlumat konteyner dayananda necə dəyişir?",
+    "options": {
+      "A": "Adlandırılmış volume-a çevrilir",
+      "B": "Image-in aşağı qatına köçürülür",
+      "C": "Hostun bütün konteynerlərinə paylanır",
+      "D": "Konteyner dayananda məlumat itir",
+      "E": "Registry-də avtomatik saxlanır"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 207,
+    "topic": 5,
+    "number": 27,
+    "question": "macOS-da Docker Desktop ilə işləyən Linux konteyneri hansı nüvədən istifadə edir?",
+    "options": {
+      "A": "Image-in daxilində saxlanan ayrıca guest nüvəsindən",
+      "B": "Registry serverinin nüvəsindən",
+      "C": "macOS nüvəsinin birbaşa Linux çağırışlarından",
+      "D": "Docker Desktop-un Linux mühitinin (VM) nüvəsindən",
+      "E": "Hər konteyner üçün yaradılan ayrıca macOS nüvəsindən"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 208,
+    "topic": 5,
+    "number": 28,
+    "question": "Əlavə silmə bayrağı olmadan docker compose down nə edir?",
+    "options": {
+      "A": "Yalnız registry-dəki image-ləri silir",
+      "B": "Konteynerləri saxlayır, bütün volume-ları silir",
+      "C": "Konteynerləri və şəbəkəni silir, volume qalır",
+      "D": "Konteynerləri başqa hostda yenidən yaradır",
+      "E": "Yalnız servislərin portlarını dəyişir, konteynerləri saxlayır"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 209,
+    "topic": 5,
+    "number": 29,
+    "question": "Dockerfile-da COPY . . addımı RUN pip install -r requirements.txt-dən əvvəldir. Asılılıqlar siyahısı dəyişmədən yalnız kod dəyişəndə asılılıqların keşdən gəlməsi üçün hansı sıra uyğundur?",
+    "options": {
+      "A": "COPY . . addımını iki dəfə, həm əvvəldə, həm sonda yazmaq",
+      "B": "Kodun kopyalanmasını əvvəldə saxlayıb asılılıqları hər dəfə yenidən qurmaq",
+      "C": "Əvvəl yalnız requirements.txt kopyalayıb asılılıqları quraşdırmaq, kodu sonra kopyalamaq",
+      "D": "Asılılıqları quraşdıran RUN addımını Dockerfile-dan tam çıxarmaq",
+      "E": "Hər kod dəyişikliyində baza image-in tag-ini dəyişdirmək"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 210,
+    "topic": 5,
+    "number": 30,
+    "question": "Image qurularkən bir qatda parol faylı yaradılıb, sonrakı qatda silinib. Parolun məxfiliyi haqqında hansı fikir doğrudur?",
+    "options": {
+      "A": "Silinən fayl əvvəlki qatda oxuna bilir",
+      "B": "Parol yalnız konteynerin yazıla bilən qatında saxlanır",
+      "C": "Parol yalnız build maşınında qalır, image qatlarına düşmür",
+      "D": "Sonrakı qatda silinmə parolu image-dən tam çıxarır",
+      "E": "Image-i alan şəxs yalnız son qatdakı faylları oxuya bilər"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 211,
+    "topic": 5,
+    "number": 31,
+    "question": "Tətbiqin mövcud hostdan fərqli əməliyyat sistemi nüvəsinə ehtiyacı var. Mühazirədəki seçim meyarına görə hansı yanaşma uyğundur?",
+    "options": {
+      "A": "Yalnız fərqli image tag-i",
+      "B": "Yalnız yeni Docker volume-u",
+      "C": "Eyni hostda adi Linux konteyneri",
+      "D": "Ayrıca nüvəyə malik virtual maşın",
+      "E": "Yalnız istifadəçi bridge şəbəkəsi"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 212,
+    "topic": 5,
+    "number": 32,
+    "question": "Registry hansı funksiyanı yerinə yetirir?",
+    "options": {
+      "A": "Image-ləri saxlayıb paylamaq",
+      "B": "Konteynerin əsas prosesini seçir",
+      "C": "Guest əməliyyat sisteminin nüvəsini işə salır",
+      "D": "Proseslərin CPU kvotasını təyin edir",
+      "E": "Host qovluğunu konteynerə qoşur"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 213,
+    "topic": 5,
+    "number": 33,
+    "question": "Konteyner image-i tətbiqlə birlikdə asılılıqları paketləməklə əsasən hansı problemi azaltmağa kömək edir?",
+    "options": {
+      "A": "Mühitlər arasındakı asılılıq fərqlərini",
+      "B": "Verilənlər bazasının sxem uyğunsuzluğunu",
+      "C": "Tətbiqin giriş icazələrinin səhv seçilməsini",
+      "D": "Bir hostun ümumi CPU tutumunu",
+      "E": "Host diskinin fiziki nasazlığını"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 214,
+    "topic": 5,
+    "number": 34,
+    "question": "Image digest-i nəyi ifadə edir?",
+    "options": {
+      "A": "Volume-un lokal diskdəki qovluğunu",
+      "B": "Image-in insan üçün dəyişkən adını",
+      "C": "Konteynerin proses nömrəsini",
+      "D": "Məzmunun dəyişməz SHA-256 heşini",
+      "E": "Hostun şəbəkə interfeysinin adını"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 215,
+    "topic": 5,
+    "number": 35,
+    "question": "Docker ilə qurulmuş image-in Podman kimi başqa alətlərdə işlədilməsini hansı amil dəstəkləyir?",
+    "options": {
+      "A": "Hər image-in ayrıca hipervizor daşıması",
+      "B": "Volume-un image-i yeni formata çevirməsi",
+      "C": "Registry-nin host nüvəsini image-ə əlavə etməsi",
+      "D": "Docker CLI-nin bütün hostlarda root kimi işləməsi",
+      "E": "Image formatının OCI standartı olması"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 216,
+    "topic": 5,
+    "number": 36,
+    "question": "Konteynerdə image-in aşağı qatındakı fayl dəyişdiriləndə copy-on-write necə işləyir?",
+    "options": {
+      "A": "Image-dən yaradılmış bütün konteynerlərdə fayl dəyişir",
+      "B": "Fayl avtomatik adlandırılmış volume-a köçürülür",
+      "C": "Dəyişiklik registry-dəki image-ə dərhal göndərilir",
+      "D": "Fayl yazıla bilən qata kopyalanıb dəyişir",
+      "E": "Fayl birbaşa yalnız oxunan aşağı qatda dəyişdirilir"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 217,
+    "topic": 5,
+    "number": 37,
+    "question": "Docker volume-u hansı xüsusiyyətə malikdir?",
+    "options": {
+      "A": "Hər konteyner üçün ayrıca nüvə yaradır",
+      "B": "Konteyner silindikdən sonra da qalan davamlı saxlama",
+      "C": "Image qatlarına dəyişiklikləri birbaşa yazır",
+      "D": "Yalnız image-in metadata-sını saxlayır",
+      "E": "Konteyner dayanan kimi avtomatik silinir"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 218,
+    "topic": 5,
+    "number": 38,
+    "question": "Konteyner sıxlığı artsa da xərc qiymətləndirməsində hansı əlavə amillər nəzərə alınmalıdır?",
+    "options": {
+      "A": "Yalnız veb servisə gələn istifadəçi sorğularının sayı",
+      "B": "Registry, pull trafiki və boş VM-lər",
+      "C": "Yalnız konteynerlərin məlumat yazdığı volume-lar",
+      "D": "Yalnız işləyən konteynerlərin istifadə etdiyi CPU vaxtı",
+      "E": "Yalnız image-in bir dəfə qurulması üçün tələb olunan vaxt"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 219,
+    "topic": 5,
+    "number": 39,
+    "question": "Çoxmərhələli build son image-i kiçiltməyə necə kömək edir?",
+    "options": {
+      "A": "Hər FROM ayrıca işləyən konteyneri istehsalda saxlayır",
+      "B": "Bütün build alətləri son image-də saxlanır",
+      "C": "Son mərhələyə yalnız hazır artefakt kopyalanır",
+      "D": "Image qatları tamamilə volume-larla əvəz edilir",
+      "E": "Host nüvəsi son image-dən registry-yə köçürülür"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 220,
+    "topic": 5,
+    "number": 40,
+    "question": "Dockerfile təlimatlarının image qatlarına təsiri hansı variantda düzgün göstərilib?",
+    "options": {
+      "A": "RUN və COPY qat yaradır, CMD isə yalnız metadata-nı dəyişir",
+      "B": "RUN və CMD yalnız metadata-nı dəyişir",
+      "C": "COPY və ADD image məzmununa təsir etmir",
+      "D": "CMD fayl sistemi qatı yaradır, RUN yalnız metadata-nı dəyişir",
+      "E": "LABEL fayl sistemi qatı yaradır, COPY yalnız metadata-nı dəyişir"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 221,
+    "topic": 5,
+    "number": 41,
+    "question": "Dockerfile-da FROM təlimatı nəyi seçir?",
+    "options": {
+      "A": "Baza image-i",
+      "B": "Əsas prosesin restart siyasətini",
+      "C": "Konteynerin yaddaş limitini",
+      "D": "Hostun yayımlanmış portunu",
+      "E": "İş qovluğunu"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 222,
+    "topic": 5,
+    "number": 42,
+    "question": "Dockerfile-da CMD nəyi təyin edir?",
+    "options": {
+      "A": "Registry-nin saxlama müddətini",
+      "B": "Build zamanı istifadə olunacaq host nüvəsini",
+      "C": "Volume-un ehtiyat nüsxəsinin yerini",
+      "D": "İşə düşəndə başlayan əsas prosesi",
+      "E": "Konteynerlərarası şəbəkənin IP aralığını"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 223,
+    "topic": 5,
+    "number": 43,
+    "question": "Bir hostdakı bir neçə konteynerin daxildə eyni 80-ci portda dinləməsi necə mümkün olur?",
+    "options": {
+      "A": "Cgroups hər konteynerə ayrıca IP ünvanı verir",
+      "B": "Bütün konteynerlər eyni prosesi və eyni soketi paylaşır",
+      "C": "Mount namespace şəbəkə paketlərini çeşidləyir",
+      "D": "Registry port nömrələrini image qatlarına paylayır",
+      "E": "Hər konteynerin öz network namespace-i var"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 224,
+    "topic": 5,
+    "number": 44,
+    "question": "Docker-in default seccomp profili nəyi məhdudlaşdırır?",
+    "options": {
+      "A": "Compose faylındakı servis adlarını",
+      "B": "Bəzi sistem çağırışlarını",
+      "C": "Image-in prosessor arxitekturasını",
+      "D": "Volume-un saxlanma müddətini",
+      "E": "Registry-dəki tag adlarının sayını"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 225,
+    "topic": 5,
+    "number": 45,
+    "question": ".dockerignore faylı image qurularkən hansı məqsədə xidmət edir?",
+    "options": {
+      "A": "Registry-də köhnə tag-ləri silir",
+      "B": "Konteynerin resurs limitlərini avtomatik seçir",
+      "C": "Verilənlər bazasının başlanmasını gözləyir",
+      "D": "İşləyən konteynerin portlarını bağlayır",
+      "E": "Build-ə göndərilən faylları məhdudlaşdırmağa Mövzu 5 — cavab açarı 1-B2-C3-D4-A5-B6-A7-E8-E9-C10-B11-E12-B13-E14-D15-A 16-B17-E18-E19-C20-C21-C22-D23-A24-C25-B26-D27-D28-C29-C30-A 31-D32-A33-A34-D35-E36-D37-B38-B39-C40-A41-A42-D43-E44-B45-E"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 226,
+    "topic": 6,
+    "number": 1,
+    "question": "Deployment üçün kubectl rollout undo əmri nəyi əvvəlki vəziyyətə qaytarır?",
+    "options": {
+      "A": "Deployment-in Pod şablonunu",
+      "B": "etcd-nin bütün ehtiyat nüsxəsini",
+      "C": "Verilənlər bazasının sxemini",
+      "D": "Registry-dəki image məzmununu",
+      "E": "Worker node-ların əməliyyat sistemini"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 227,
+    "topic": 6,
+    "number": 2,
+    "question": "Secret-in data dəyərlərində base64 istifadəsi nə deməkdir?",
+    "options": {
+      "A": "İcazə yoxlaması",
+      "B": "Pod-ların təcridi",
+      "C": "Sadəcə kodlaşdırma",
+      "D": "Açarla şifrələmə",
+      "E": "Məlumatın ehtiyat nüsxəsi"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 228,
+    "topic": 6,
+    "number": 3,
+    "question": "Klasterdə API server məlumatını saxlayan açar–dəyər anbarı hansıdır?",
+    "options": {
+      "A": "containerd",
+      "B": "kube-proxy",
+      "C": "kube-scheduler",
+      "D": "kubelet",
+      "E": "etcd"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 229,
+    "topic": 6,
+    "number": 4,
+    "question": "Klasterdə LoadBalancer Service yaradılıb, amma xarici balanslaşdırıcı üçün provayder inteqrasiyası və ayrıca komponent yoxdur. Hansı nəticə gözlənilir?",
+    "options": {
+      "A": "Xarici IP pending vəziyyətində qalır",
+      "B": "Hazır Pod sayı artdıqda xarici IP mütləq ayrılar",
+      "C": "Xarici IP hazır endpoint-lərin IP-sindən avtomatik seçilər",
+      "D": "Xarici IP provayder inteqrasiyası olmadan da zəmanətlidir",
+      "E": "Service-in ClusterIP-si avtomatik xarici IP-yə çevrilər"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 230,
+    "topic": 6,
+    "number": 5,
+    "question": "Deployment, ReplicaSet və Pod arasında idarəetmə zənciri hansı ardıcıllıqdadır?",
+    "options": {
+      "A": "Pod → ReplicaSet → Deployment",
+      "B": "ReplicaSet → Deployment → Pod",
+      "C": "Pod → Deployment → ReplicaSet",
+      "D": "Deployment → ReplicaSet → Pod",
+      "E": "Deployment → Pod → ReplicaSet"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 231,
+    "topic": 6,
+    "number": 6,
+    "question": "ReplicaSet-in əsas vəzifəsi nədir?",
+    "options": {
+      "A": "Konteyner image-ini registry-yə yükləmək",
+      "B": "Seçiciyə uyğun verilmiş sayda Pod-un işləməsini təmin etmək",
+      "C": "Node-da konteyner prosesini başlatmaq",
+      "D": "Xarici yük balanslaşdırıcısı yaratmaq",
+      "E": "Secret dəyərlərini şifrələmək"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 232,
+    "topic": 6,
+    "number": 7,
+    "question": "Hər node-un IP-sində sabit port açan Service növü hansıdır?",
+    "options": {
+      "A": "NodePort",
+      "B": "ClusterIP",
+      "C": "LoadBalancer",
+      "D": "ReplicaSet",
+      "E": "Deployment"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 233,
+    "topic": 6,
+    "number": 8,
+    "question": "Veb tətbiqi ilə verilənlər bazasını ayrı Pod-larda yerləşdirmək niyə daha uyğundur?",
+    "options": {
+      "A": "Ayrı Pod seçimi bazanın davamlı saxlanmasını əvəz edir",
+      "B": "Veb və baza həmişə eyni sayda replika ilə işləməlidir",
+      "C": "Veb və baza həmişə eyni vaxtda yenilənməlidir",
+      "D": "Müstəqil miqyaslanır və yenilənir",
+      "E": "Fərqli Pod-lar avtomatik eyni saxlama tələbini yaradır"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 234,
+    "topic": 6,
+    "number": 9,
+    "question": "Bir neçə servis bir hostda rahat işləyir və komandanın Kubernetes bacarığı yoxdur. Kubernetes-ə keçid barədə hansı yanaşma daha əsaslıdır?",
+    "options": {
+      "A": "Kubernetes-in hər iş yükü üçün əməliyyat yükünü azaltdığını qəbul etmək",
+      "B": "Əməliyyat yükünü qiymətləndirib sadə və ya idarə olunan həlli seçmək",
+      "C": "Host sayı az olduqda öz control plane-ini mütləq qurmaq",
+      "D": "Komanda bacarığını yalnız trafik yüksək olanda nəzərə almaq",
+      "E": "Servis sayı az olsa da, Kubernetes-i məcburi seçmək"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 235,
+    "topic": 6,
+    "number": 10,
+    "question": "Kubernetes etiketi (label) nədir?",
+    "options": {
+      "A": "Pod üçün ayrılan CPU həddi",
+      "B": "Qruplaşdırma üçün açar–dəyər cütü",
+      "C": "etcd-nin ehtiyat nüsxəsi",
+      "D": "Konteynerin dəyişməz IP ünvanı",
+      "E": "Registry-yə giriş üçün məxfi açar"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 236,
+    "topic": 6,
+    "number": 11,
+    "question": "Requests dəyərlərinin ehtiyacdan çox yüksək yazılması xərcə necə təsir edə bilər?",
+    "options": {
+      "A": "Yazılmış request istifadə olunmasa da tutum ayırır və ödənilir",
+      "B": "Faktiki istifadə azdırsa yerləşdirməyə təsir etmir",
+      "C": "Yüksək request həmişə daha az node tələb edir",
+      "D": "Request dəyəri yalnız işləmə vaxtındakı həddi dəyişir",
+      "E": "Yüksək request ehtiyat tutuma ehtiyacı aradan qaldırır"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 237,
+    "topic": 6,
+    "number": 12,
+    "question": "Control plane əlçatmazdır, amma node və kubelet işləyir. Restart siyasəti Always olan mövcud Pod-da konteyner çökür. Nə mümkündür?",
+    "options": {
+      "A": "Konteyner restartı mütləq yeni ReplicaSet yaranmasını tələb edir",
+      "B": "Scheduler həmin Pod-u başqa node-a köçürə bilər",
+      "C": "ReplicaSet controller dərhal yeni Pod yarada bilər",
+      "D": "Kubelet yalnız control plane qayıtdıqdan sonra restart edə bilər",
+      "E": "Kubelet konteyneri control plane olmadan restart edə bilər"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 238,
+    "topic": 6,
+    "number": 13,
+    "question": "Node-un agenti kimi Pod-ları işə salan və statusunu bildirən komponent hansıdır?",
+    "options": {
+      "A": "Klaster DNS-i",
+      "B": "cloud-controller-manager",
+      "C": "Deployment controller",
+      "D": "etcd",
+      "E": "kubelet"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 239,
+    "topic": 6,
+    "number": 14,
+    "question": "Uzun başlanğıclı tətbiq üçün startup probe seçilir. Liveness intervalını çox artırmaqla müqayisədə bu seçimin faydası nədir?",
+    "options": {
+      "A": "Başlanğıca vaxt verir, iş zamanı liveness artıq işləmir",
+      "B": "Başlanğıca vaxt verir, iş zamanı liveness sərt qalıb ilişməni tez aşkarlayır",
+      "C": "Başlanğıc bitəndə konteyneri məcburi yenidən başladır",
+      "D": "Başlanğıc bitəndə bütün sağlamlıq yoxlamalarını dayandırır",
+      "E": "Başlanğıca vaxt verir, readiness yoxlaması ləğv olunur"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 240,
+    "topic": 6,
+    "number": 15,
+    "question": "API klaster daxilindəki veb Pod-larından çağırılacaq və xaricə açılmamalıdır. Xarici balanslaşdırıcı və node portu açmadan hansı Service növü uyğundur?",
+    "options": {
+      "A": "NodePort",
+      "B": "Deployment",
+      "C": "ClusterIP",
+      "D": "ReplicaSet",
+      "E": "LoadBalancer"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 241,
+    "topic": 6,
+    "number": 16,
+    "question": "Tətbiqin üç replikası eyni worker node-da işləyir. Yalnız replikaların sayına əsaslanaraq bir node itkisinə davamlılıq barədə nə demək olar?",
+    "options": {
+      "A": "Üç replika həmişə üç ayrı fiziki host deməkdir",
+      "B": "Service replikaların yaddaşını başqa node-da saxlayır",
+      "C": "Hamısı bir node itkisi ilə itir, replika sayı tək başına davamlılığa zəmanət vermir",
+      "D": "ReplicaSet Pod-ları node itkisi anında eyni IP ilə köçürür",
+      "E": "Replika sayı control plane-in davamlılığına zəmanət verir"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 242,
+    "topic": 6,
+    "number": 17,
+    "question": "Deployment obyektində spec sahəsi nəyi göstərir?",
+    "options": {
+      "A": "Node-un şəbəkə hadisələrini",
+      "B": "İstifadəçinin yazdığı arzu olunan vəziyyəti",
+      "C": "Konteynerin çıxış loglarını",
+      "D": "Registry-dəki image siyahısını",
+      "E": "Sistemin müşahidə etdiyi faktiki vəziyyəti"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 243,
+    "topic": 6,
+    "number": 18,
+    "question": "Kubelet konteyneri eyni Pod daxilində yenidən başladanda hansı məlumat eyni qalır?",
+    "options": {
+      "A": "Konteyner prosesinin yaddaşdakı vəziyyəti",
+      "B": "Konteynerin yazıla bilən qatının məzmunu",
+      "C": "Pod-un adı, node-u, IP-si və volume-ları",
+      "D": "Əvvəlki prosesin tamamlanmamış hesablamaları",
+      "E": "Konteynerin əvvəlki proses identifikatoru"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 244,
+    "topic": 6,
+    "number": 19,
+    "question": "Bir hostda Compose ilə işləyən sistemdə host sönəndə restart siyasəti niyə konteynerləri başqa hostda bərpa etmir?",
+    "options": {
+      "A": "Restart siyasəti konteyneri yalnız əl ilə başladır",
+      "B": "Bərpanı edəcək Docker daemon-u da həmin hostda idi",
+      "C": "Başqa hosta bərpa yalnız eyni image tag-ını tələb edir",
+      "D": "Restart siyasəti yalnız düzgün dayanan prosesi bərpa edir",
+      "E": "Compose-da host itkisi konteynerin dayanması sayılmır"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 245,
+    "topic": 6,
+    "number": 20,
+    "question": "ConfigMap adi volume faylı kimi qoşulub, subPath istifadə olunmur. Fayl yenilənib, amma tətbiq onu yalnız başlanğıcda oxuyur. Tətbiq niyə köhnə dəyəri istifadə edir?",
+    "options": {
+      "A": "ConfigMap-in dəyişməsi həmişə yeni rollout yaradır",
+      "B": "Hər fayl dəyişikliyi tətbiq prosesini avtomatik başladır",
+      "C": "Fayl yenilənməsi prosesin yaddaşını avtomatik yeniləyir",
+      "D": "Tətbiq faylı yalnız başlanğıcda oxuyur və yenidən oxumur",
+      "E": "Adi volume faylı da subPath kimi heç yenilənmir"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 246,
+    "topic": 6,
+    "number": 21,
+    "question": "Kubernetes-də yaradılıb idarə oluna bilən ən kiçik yerləşdirmə vahidi hansıdır?",
+    "options": {
+      "A": "ReplicaSet",
+      "B": "Pod",
+      "C": "Service",
+      "D": "Worker node",
+      "E": "Deployment"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 247,
+    "topic": 6,
+    "number": 22,
+    "question": "Hələ node-a təyin olunmamış Pod üçün node-u hansı komponent seçir?",
+    "options": {
+      "A": "kubelet",
+      "B": "etcd",
+      "C": "kube-scheduler",
+      "D": "Konteyner runtime-ı",
+      "E": "kube-proxy"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 248,
+    "topic": 6,
+    "number": 23,
+    "question": "Kubernetes API-sinin provayderlər arasında oxşar olması niyə tam daşına bilmə zəmanəti deyil?",
+    "options": {
+      "A": "İnteqrasiyalar, icazələr və xidmətlər provayderdən provayderə fərqlənir",
+      "B": "OCI image uyğunluğu bütün icazə sazlamalarını daşıyır",
+      "C": "Standart API tətbiqin bütün asılılıqlarını da köçürür",
+      "D": "Eyni manifest hər provayderdə eyni xərcə zəmanət verir",
+      "E": "Control plane-in provayderdə olması inteqrasiyaları eyniləşdirir"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 249,
+    "topic": 6,
+    "number": 24,
+    "question": "CPU limiti işləmə vaxtında necə tətbiq olunur?",
+    "options": {
+      "A": "Pod-u başqa node-a köçürməklə",
+      "B": "Service IP-sini dəyişməklə",
+      "C": "Prosesi hər dəfə dərhal öldürməklə",
+      "D": "Yeni ReplicaSet yaratmaqla",
+      "E": "Sıxışdırma (throttling) ilə"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 250,
+    "topic": 6,
+    "number": 25,
+    "question": "Kubernetes klasterinin iki əsas hissəsi hansılardır?",
+    "options": {
+      "A": "Volume və konteyner logları",
+      "B": "Registry və image tag-ları",
+      "C": "ConfigMap və Secret anbarları",
+      "D": "Control plane və worker node",
+      "E": "DNS və klient brauzerləri"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 251,
+    "topic": 6,
+    "number": 26,
+    "question": "Node-da konteyneri faktiki işə salan hansı hissədir?",
+    "options": {
+      "A": "Kubernetes DNS xidməti",
+      "B": "Etiket seçicisi",
+      "C": "Konteyner işləmə mühiti (məsələn containerd)",
+      "D": "etcd məlumat anbarı",
+      "E": "Deployment controller"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 252,
+    "topic": 6,
+    "number": 27,
+    "question": "Uyğunlaşdırma dövrünün əsas işi nədir?",
+    "options": {
+      "A": "Faktiki vəziyyəti arzu olunan kimi yadda saxlamaq",
+      "B": "Faktiki vəziyyətin dəyişməsini izləmədən əmr vermək",
+      "C": "Hər fərq aşkar ediləndə arzu olunan vəziyyəti silmək",
+      "D": "Arzu olunan vəziyyəti yalnız ilk yaradılmada yoxlamaq",
+      "E": "Faktiki vəziyyəti arzu olunana yaxınlaşdırmaq"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 253,
+    "topic": 6,
+    "number": 28,
+    "question": "ImagePullBackOff ilə CrashLoopBackOff arasındakı fərq hansı variantda düzgündür?",
+    "options": {
+      "A": "Birincidə konteyner təkrar çökür, ikincidə image çəkilə bilmir",
+      "B": "Birincidə rollout tamamlanır, ikincidə əvvəlki şablona qayıdılır",
+      "C": "Birincidə replika sayı artır, ikincidə yaddaş request-i azalır",
+      "D": "Birincidə Service IP-si dəyişir, ikincidə DNS adı silinir",
+      "E": "Birincidə image çəkilmir, ikincidə tətbiq çökür"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 254,
+    "topic": 6,
+    "number": 29,
+    "question": "ConfigMap mühit dəyişəni kimi Pod-a verilib. ConfigMap-də dəyər dəyişəndə mövcud Pod-da nə baş verir?",
+    "options": {
+      "A": "Deployment dərhal yeni ReplicaSet yaradır",
+      "B": "Service yeni dəyəri konteynerin yaddaşına yazır",
+      "C": "Runtime image-i yeni dəyərlə avtomatik yenidən qurur",
+      "D": "Mövcud Pod dəyəri görmür, Pod yenidən başladılmalıdır",
+      "E": "Scheduler yeni dəyər üçün Pod-u başqa node-a köçürür"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 255,
+    "topic": 6,
+    "number": 30,
+    "question": "Komanda requests və limits dəyərlərini təsadüfi seçib. Real yükə uyğun dəyərlər müəyyən etmək üçün hansı yanaşma daha əsaslıdır?",
+    "options": {
+      "A": "Yalnız image ölçüsünə baxıb CPU və yaddaş dəyərlərini seçmək",
+      "B": "Yalnız replika sayına baxıb hər konteynerin həddini seçmək",
+      "C": "Monitorinq və yük testi ilə ölçmək",
+      "D": "Bütün tətbiqlərə eyni dəyərləri verib onları dəyişməz saxlamaq",
+      "E": "Yalnız hazır Pod sayına baxıb hər request-i sıfırlaşdırmaq"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 256,
+    "topic": 6,
+    "number": 31,
+    "question": "Namespace-də Pod yaratmaq icazəsi Secret-in məzmununa necə dolayı çıxış verə bilər?",
+    "options": {
+      "A": "Secret-in yalnız data sahəsinin adlarını görməklə",
+      "B": "Secret başqa namespace-də olsa da onu sərbəst qoşmaqla",
+      "C": "Pod yaratmaq icazəsini birbaşa Secret oxuma icazəsi saymaqla",
+      "D": "Pod-un adını Secret-in adı ilə eyniləşdirməklə",
+      "E": "Pod-a Secret qoşmaq vasitəsilə dolayı oxuma imkanı verə bilər"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 257,
+    "topic": 6,
+    "number": 32,
+    "question": "Service Pod qrupuna hansı sabit giriş vasitələrini verir?",
+    "options": {
+      "A": "CPU request-i və yaddaş limiti",
+      "B": "Image tag-ı və digest",
+      "C": "Secret açarı və registry token-i",
+      "D": "Sabit virtual IP və DNS adı",
+      "E": "Pod adı və fiziki host adı"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 258,
+    "topic": 6,
+    "number": 33,
+    "question": "Parol, token və açar kimi kiçik həssas məlumat üçün hansı obyekt nəzərdə tutulub?",
+    "options": {
+      "A": "Deployment",
+      "B": "Service",
+      "C": "EndpointSlice",
+      "D": "Secret",
+      "E": "ConfigMap"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 259,
+    "topic": 6,
+    "number": 34,
+    "question": "Image ölçüsünün böyüməsi yeni Pod-un hazırlanmasına necə təsir edə bilər?",
+    "options": {
+      "A": "Çəkmə vaxtına və bərpaya təsir edir",
+      "B": "Image ölçüsü yalnız Pod-un replika sayını dəyişir",
+      "C": "Image ölçüsü yalnız hazır Pod-un DNS adına təsir edir",
+      "D": "Image-in çəkilməsini və bərpanı həmişə sürətləndirir",
+      "E": "Image ölçüsü çəkmə vaxtına və bərpaya təsir etmir"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 260,
+    "topic": 6,
+    "number": 35,
+    "question": "Kubernetes namespace-i ilə Linux namespace-i arasındakı fərq hansı variantda düzgün göstərilib?",
+    "options": {
+      "A": "Kubernetes namespace-i resursları qruplaşdırır, Linux namespace-i isə nüvənin təcrid mexanizmidir",
+      "B": "Hər ikisi ayrıca fiziki host yaradaraq təcrid təmin edir",
+      "C": "Hər ikisi yalnız konteynerin CPU limitini müəyyən edir",
+      "D": "Birincisi nüvənin təcrid mexanizmidir, ikincisi resursların ad sahəsidir",
+      "E": "Birincisi image registry-sidir, ikincisi Pod üçün DNS adıdır"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 261,
+    "topic": 6,
+    "number": 36,
+    "question": "Rolling update zamanı yeni və köhnə versiyaların uyğunluğu niyə vacibdir?",
+    "options": {
+      "A": "Service yeniləmə bitənədək bütün sorğuları bazada saxlayır",
+      "B": "Yeniləmə zamanı trafik yalnız yeni versiyaya gedir",
+      "C": "Kubernetes bazanın sxemini hər yeni Pod üçün ayrıca dəyişir",
+      "D": "İki versiya eyni anda trafik alır",
+      "E": "Köhnə versiyanın konteynerləri yeni image-dən işə salınır"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 262,
+    "topic": 6,
+    "number": 37,
+    "question": "API-nin liveness probe-u ortaq verilənlər bazasını yoxlayır. Baza yavaşlayanda hansı risk yaranır?",
+    "options": {
+      "A": "Secret yenilənərək verilənlər bazasının yükünü azaldır",
+      "B": "Liveness yalnız trafiki kəsir, konteynerləri restart etmir",
+      "C": "Kubelet verilənlər bazasını başqa node-a köçürür",
+      "D": "Baza yavaşlayanda bütün Pod-lar eyni anda yenidən başladıla bilər (kaskad nasazlıq)",
+      "E": "Bütün API Pod-larının CPU requests-i avtomatik artır"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 263,
+    "topic": 6,
+    "number": 38,
+    "question": "Deployment-də yalnız replika sayı artırılır, Pod şablonu dəyişmir. Hansı nəticə gözlənilir?",
+    "options": {
+      "A": "Mövcud ReplicaSet sadəcə böyüyür, rollout başlamır",
+      "B": "Replika sayı yalnız Service-in endpoint sayına təsir edir",
+      "C": "Köhnə ReplicaSet silinir, eyni Pod-lar ona yenidən bağlanır",
+      "D": "Pod şablonu əvvəlki versiyaya avtomatik qaytarılır",
+      "E": "Yeni ReplicaSet yaranır və rollout başlayır"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 264,
+    "topic": 6,
+    "number": 39,
+    "question": "Requests və limits parametrlərinin rolları hansı variantda düzgün müqayisə olunur?",
+    "options": {
+      "A": "Requests işləmə vaxtındakı hədd, limits yerləşdirmə üçündür",
+      "B": "Requests yerləşdirmə, limits işləmə həddi üçündür",
+      "C": "Requests yalnız yaddaşa, limits yalnız CPU-ya tətbiq olunur",
+      "D": "Requests image ölçüsünü, limits replika sayını müəyyən edir",
+      "E": "Requests DNS seçimini, limits Service növünü müəyyən edir"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 265,
+    "topic": 6,
+    "number": 40,
+    "question": "kind alətində Kubernetes node-ları necə işlədilir?",
+    "options": {
+      "A": "Yalnız brauzer prosesləri kimi",
+      "B": "etcd daxilində məlumat qeydi kimi",
+      "C": "Xarici yük balanslaşdırıcıları kimi",
+      "D": "Hər biri ayrıca fiziki server kimi",
+      "E": "Konteyner kimi, hamısı eyni kompüterdə"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 266,
+    "topic": 6,
+    "number": 41,
+    "question": "Gizli olmayan konfiqurasiyanı saxlamaq üçün hansı obyekt nəzərdə tutulub?",
+    "options": {
+      "A": "ConfigMap",
+      "B": "Secret",
+      "C": "EndpointSlice",
+      "D": "Service",
+      "E": "ReplicaSet"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 267,
+    "topic": 6,
+    "number": 42,
+    "question": "Readiness probe uğursuz olduqda konteynerə və Service trafikinə nə olur?",
+    "options": {
+      "A": "Pod başqa node-a köçürülür və trafik almağa davam edir",
+      "B": "Pod Service trafikindən çıxarılır, konteyner yenidən başladılmır",
+      "C": "Pod trafikdən çıxarılır, konteyner mütləq yenidən başladılır",
+      "D": "Pod trafik alır, yalnız onun CPU limiti azaldılır",
+      "E": "Service silinir, onun seçdiyi bütün konteynerlər dayandırılır"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 268,
+    "topic": 6,
+    "number": 43,
+    "question": "İdarə olunan Kubernetes-də control plane-i provayder işlədirsə, hansı iş müştərinin məsuliyyətində qalır?",
+    "options": {
+      "A": "Provayderin idarə etdiyi etcd xidmətinin işlədilməsi",
+      "B": "İdarə olunan control plane-in avadanlığının dəyişdirilməsi",
+      "C": "Konfiqurasiya, image-lər, icazələr və sirlər",
+      "D": "İdarə olunan control plane-in iş yükü kimi sazlanması",
+      "E": "İdarə olunan API server-in proqram yeniləmələri"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 269,
+    "topic": 6,
+    "number": 44,
+    "question": "Node-larda faktiki CPU istifadəsi azdır, amma yeni Pod-un yazılmış requests-i qalan ayrılabilən tutuma sığmır. Resurs baxımından hansı nəticə gözlənilir?",
+    "options": {
+      "A": "Az faktiki istifadə requests-in nəzərə alınmamasına səbəb olur",
+      "B": "Service Pod-u öz IP-sində konteyner kimi işə salır",
+      "C": "Scheduler yerləşdirmə üçün yalnız CPU limitinə baxır",
+      "D": "Kubelet Pod-un requests-ini avtomatik azaldaraq yer açır",
+      "E": "Scheduler yazılmış requests-ə baxır, Pod yerləşdirilmir və Pending qalır"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 270,
+    "topic": 6,
+    "number": 45,
+    "question": "Pod-un həyatı boyu node-a təyin olunması haqqında hansı fikir düzgündür?",
+    "options": {
+      "A": "Hər konteyner restartında eyni Pod yenidən təyin olunur",
+      "B": "Service IP-si dəyişəndə eyni Pod başqa node-a təyin olunur",
+      "C": "Pod bir dəfə təyin olunur, köçürülmür",
+      "D": "Node itəndə eyni Pod yeni node-da yaddaşı ilə davam edir",
+      "E": "Replika sayı dəyişəndə eyni Pod başqa node-a köçürülür Mövzu 6 — cavab açarı 1-A2-C3-E4-A5-D6-B7-A8-D9-B10-B11-A12-E13-E14-B15-C 16-C17-B18-C19-B20-D21-B22-C23-A24-E25-D26-C27-E28-E29-D30-C 31-E32-D33-D34-A35-A36-D37-D38-A39-B40-E41-A42-B43-C44-E45-C"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 271,
+    "topic": 7,
+    "number": 1,
+    "question": "Provayder subnet-də bəzi IP ünvanlarını nə üçün ehtiyatda saxlayır?",
+    "options": {
+      "A": "Hər yeni TCP bağlantısına ayrıca ünvan vermək üçün",
+      "B": "Yalnız ofisin VPN istifadəçiləri üçün",
+      "C": "Yalnız public IP-si olan hədəflər üçün",
+      "D": "Provayder onları öz xidmətləri üçün saxlayır",
+      "E": "Hər gələcək müştəri VM-i üçün əvvəlcədən"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 272,
+    "topic": 7,
+    "number": 2,
+    "question": "DNS-in əsas funksiyası nədir?",
+    "options": {
+      "A": "Paketin mənbə portunu dəyişmək",
+      "B": "Trafiki sağlam hədəflər arasında bölmək",
+      "C": "VPN tunelini şifrələmək",
+      "D": "Adı IP ünvanına çevirmək",
+      "E": "HTTP hücumlarını süzmək"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 273,
+    "topic": 7,
+    "number": 3,
+    "question": "Subnet ölçüsü planlaşdırılarkən yalnız mövcud VM-lərin sayını nəzərə almaq niyə kifayət etməyə bilər?",
+    "options": {
+      "A": "Autoscaling yeni node yaradanda və endpoint-lər də subnet-dən ünvan tələb edir",
+      "B": "Gələcək artım yalnız public IP sayı artanda nəzərə alınır",
+      "C": "Autoscaling yeni node yaratsa da ünvan tələb etmir",
+      "D": "Subnet-də yalnız hazırda işləyən VM-lər ünvan alır",
+      "E": "Endpoint-lər subnet-in ünvan sahəsindən heç istifadə etmir"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 274,
+    "topic": 7,
+    "number": 4,
+    "question": "Eyni virtual şəbəkədə tətbiq və baza fərqli subnet-lərdə yerləşir. Onların ayrılmasını hansı vasitə təmin edir?",
+    "options": {
+      "A": "Süzgəc qaydası, çünki subnet-lər yerli marşrutla avtomatik birləşir",
+      "B": "DNS cavabında uzun TTL seçilməsi",
+      "C": "Subnet-lərə fərqli adların verilməsi",
+      "D": "Yalnız subnet-lərin ayrı ünvan hissələrində olması",
+      "E": "Yalnız yerli marşrutun mövcudluğu"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 275,
+    "topic": 7,
+    "number": 5,
+    "question": "Xidmətin IP-si dəyişəndə DNS cavablarının daha tez yenilənməsi üçün TTL qısaldılır. Bu seçimin əsas bədəli nədir?",
+    "options": {
+      "A": "DNS sorğularının sayı azalır",
+      "B": "IP dəyişdikdə xidmətin DNS adını da dəyişmək tələb olunur",
+      "C": "DNS sorğularının sayı artır",
+      "D": "DNS cavablarının keşdə saxlanması tam dayanır",
+      "E": "Köhnə cavabın keşdə qalma müddəti uzanır"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 276,
+    "topic": 7,
+    "number": 6,
+    "question": "AWS-də bir subnet-in əlçatanlıq zonası ilə əlaqəsi necədir?",
+    "options": {
+      "A": "Subnet mütləq iki regionda yerləşir",
+      "B": "Subnet tamamilə bir əlçatanlıq zonasında yerləşir",
+      "C": "Subnet regionun bütün zonalarını əhatə edir",
+      "D": "Subnet-in əhatəsi həmişə qlobaldır",
+      "E": "Subnet bütün regionları əhatə edir"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 277,
+    "topic": 7,
+    "number": 7,
+    "question": "DNS-də TTL nəyi müəyyən edir?",
+    "options": {
+      "A": "TCP bağlantısının port nömrəsini",
+      "B": "VPN tunelinin şifrələmə alqoritmini",
+      "C": "Subnet-dəki ehtiyat ünvanların sayını",
+      "D": "DNS cavabının keşdə qalma müddətini",
+      "E": "HTTP sorğusunun hansı hədəfə çatacağını"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 278,
+    "topic": 7,
+    "number": 8,
+    "question": "Private resursların internetə çıxışı NAT ilə təmin olunur. Çıxışı yalnız icazəli təyinatlarla məhdudlaşdırmaq üçün əlavə hansı vasitə lazımdır?",
+    "options": {
+      "A": "Yalnız çıxış NAT-ının public ünvanını sabit saxlamaq",
+      "B": "Mərkəzi firewall və ya domen siyahılı proksi ilə çıxış nəzarəti",
+      "C": "Yalnız resursları private subnet-də yerləşdirmək",
+      "D": "Yalnız bütün resursları eyni NAT-a yönəltmək",
+      "E": "Yalnız internetdən gələn yeni bağlantıları bloklamaq"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 279,
+    "topic": 7,
+    "number": 9,
+    "question": "Bütün tətbiq hədəflərinin /health yoxlaması bazaya da müraciət edir. Baza yavaşlayanda bu dizayn hansı risk yaradır?",
+    "options": {
+      "A": "Yalnız ən yeni tətbiq hədəfi çıxarılar",
+      "B": "Yalnız bazanın özü qeyri-sağlam sayılar, tətbiq hədəfləri təsirlənməz",
+      "C": "Tətbiq işlədiyi üçün bütün hədəflər mütləq sağlam qalar",
+      "D": "Yalnız bazanın IP ünvanı balanslaşdırıcıdan çıxarılar",
+      "E": "Baza yavaşlayanda bütün hədəflər çıxarılır"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 280,
+    "topic": 7,
+    "number": 10,
+    "question": "Paketin L3 başlığında hansı məlumat yerləşir?",
+    "options": {
+      "A": "HTTP sorğusunun URL yolu",
+      "B": "HTTP sorğusunun metodu",
+      "C": "Mənbə və təyinat IP ünvanı",
+      "D": "HTTP host adı və başlıqlar",
+      "E": "Mənbə və təyinat TCP portları"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 281,
+    "topic": 7,
+    "number": 11,
+    "question": "Trafik yoluna mərkəzi firewall və ya tranzit hab əlavə etməyin performans baxımından mümkün nəticəsi nədir?",
+    "options": {
+      "A": "Gecikmənin artması və potensial darboğaz yaranması",
+      "B": "Əlavə keçidlərin gecikməyə təsir etməməsi",
+      "C": "Hər yeni keçiddə tutumun avtomatik artması",
+      "D": "Gecikmənin bütün hallarda azalması",
+      "E": "Yalnız giriş gecikməsinin artması, çıxışa təsir etməməsi"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 282,
+    "topic": 7,
+    "number": 12,
+    "question": "AWS-də subnet-in public sayılması üçün marşrut cədvəlində nəyə marşrut olmalıdır?",
+    "options": {
+      "A": "Yalnız NAT şlüzünə",
+      "B": "Yalnız private DNS zonasına",
+      "C": "Yalnız verilənlər bazasına",
+      "D": "İnternet şlüzünə (internet gateway)",
+      "E": "Yalnız VPN şlüzünə"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 283,
+    "topic": 7,
+    "number": 13,
+    "question": "Mühazirədə split-horizon DNS eyni xidmət adı üçün necə cavab verir?",
+    "options": {
+      "A": "Daxildən private, xaricdən public ünvan",
+      "B": "Hər cavabda public və private ünvanı məcburi birlikdə",
+      "C": "Hər yerdən yalnız eyni private ünvan",
+      "D": "Daxildən public, xaricdən private ünvan",
+      "E": "Hər yerdən yalnız eyni public ünvan"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 284,
+    "topic": 7,
+    "number": 14,
+    "question": "NAT paketin hansı məlumatını dəyişir?",
+    "options": {
+      "A": "Tətbiq istifadəçisinin giriş hüquqlarını",
+      "B": "TLS ilə şifrələnmiş sorğunun məzmununu",
+      "C": "HTTP sorğusunun URL yolunu",
+      "D": "DNS cavabının keş müddətini",
+      "E": "Mənbə və ya təyinat ünvanını"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 285,
+    "topic": 7,
+    "number": 15,
+    "question": "WAF ilə şəbəkə süzgəci arasındakı fərqi hansı fikir düzgün göstərir?",
+    "options": {
+      "A": "WAF HTTP hücumlarını görür, bütün L3/L4 qaydalarını əvəz edir",
+      "B": "Şəbəkə süzgəci HTTP məzmununu WAF ilə eyni dərinlikdə oxuyur",
+      "C": "WAF olduqda HTTP olmayan axınlar üçün də süzgəc lazım deyil",
+      "D": "WAF tətbiq hücumlarını yalnız mənbə IP-si üzrə tanıyır",
+      "E": "WAF HTTP hücumlarını görür, lakin şəbəkə süzgəcini əvəz etmir"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 286,
+    "topic": 7,
+    "number": 16,
+    "question": "Buludda virtual şəbəkə nədir?",
+    "options": {
+      "A": "Təkcə domen adlarının saxlandığı xidmət",
+      "B": "Yalnız fiziki kommutatorlardan ibarət müştəri avadanlığı",
+      "C": "Hər müştəri üçün proqramla idarə olunan şəbəkə",
+      "D": "Bütün müştərilərin eyni qaydalarla istifadə etdiyi açıq şəbəkə",
+      "E": "Yalnız konteyner image-lərinin yerləşdiyi yaddaş"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 287,
+    "topic": 7,
+    "number": 17,
+    "question": "Virtual şəbəkədə ünvan planının hazırlanması kimin məsuliyyətidir?",
+    "options": {
+      "A": "Yalnız bulud provayderinin",
+      "B": "Domen qeydiyyatçısının",
+      "C": "Müştərinin öz məsuliyyətidir",
+      "D": "İnternet istifadəçisinin",
+      "E": "Fiziki şəbəkə avadanlığını istehsal edənin"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 288,
+    "topic": 7,
+    "number": 18,
+    "question": "Autoscaling istifadə olunan sistemdə süzgəc qaydasını konkret node IP-si əvəzinə rol qrupuna bağlamaq niyə faydalıdır?",
+    "options": {
+      "A": "Rol qrupuna qoşulmaq hər porta giriş verməlidir",
+      "B": "Autoscaling olduqda şəbəkə qaydaları lazım deyil",
+      "C": "Hər yeni node-da konkret IP əvvəlki kimi qalır",
+      "D": "Rol əsaslı qayda təyinat portunu seçməyi əvəz edir",
+      "E": "Yeni node-da IP dəyişir, rol isə sabit qalır"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 289,
+    "topic": 7,
+    "number": 19,
+    "question": "İdarə olunan çıxış NAT-ı internetdən başlanan yeni bağlantını niyə daxili resursa ötürmür?",
+    "options": {
+      "A": "NAT xaricdən gələn hər sorğunu əvvəlki cavab sayır",
+      "B": "NAT yeni bağlantıya həmişə ayrıca daxili ünvan ayırır",
+      "C": "NAT public ünvanı olan hər göndərəni daxilə buraxır",
+      "D": "NAT yalnız HTTP bağlantılarında vəziyyət qeydi saxlayır",
+      "E": "NAT yalnız içəridən başlanmış bağlantının cavabını vəziyyət cədvəlində tanıyır"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 290,
+    "topic": 7,
+    "number": 20,
+    "question": "Mühazirədəki hibrid əlaqədə site-to-site VPN nəyi birləşdirir?",
+    "options": {
+      "A": "Ofis və virtual şəbəkəni tunellə birləşdirir",
+      "B": "Yalnız eyni node-dakı iki Pod-u",
+      "C": "Yalnız balanslaşdırıcını və onun sağlamlıq yolunu",
+      "D": "Yalnız DNS adını və IP ünvanını",
+      "E": "Yalnız fərdi istifadəçinin brauzerini və veb səhifəni"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 291,
+    "topic": 7,
+    "number": 21,
+    "question": "Azure-da subnet-in defaultOutboundAccess xassəsinin false olması nə deməkdir?",
+    "options": {
+      "A": "Subnet avtomatik olaraq WAF ilə qorunur",
+      "B": "Subnet-də private IP istifadəsi qadağan edilir",
+      "C": "Subnet private-dir, gizli çıxış verilmir",
+      "D": "Subnet-ə daxil olan bütün trafik rədd edilir",
+      "E": "Qurulmuş NAT Gateway də işləyə bilməz"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 292,
+    "topic": 7,
+    "number": 22,
+    "question": "Private DNS zonası haradan sorğulana bilər?",
+    "options": {
+      "A": "Yalnız domen qeydiyyatçısının serverindən",
+      "B": "Yalnız əlaqələndirilmiş virtual şəbəkələrdən",
+      "C": "İnternetdəki bütün hostlardan",
+      "D": "Yalnız yük balanslaşdırıcının public ünvanından",
+      "E": "Yalnız fiziki kommutatorun idarəetmə portundan"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 293,
+    "topic": 7,
+    "number": 23,
+    "question": "TCP başlığında mənbə və təyinat portları hansı qata aiddir?",
+    "options": {
+      "A": "L7",
+      "B": "L2",
+      "C": "L3",
+      "D": "L1",
+      "E": "L4"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 294,
+    "topic": 7,
+    "number": 24,
+    "question": "Fərqli bulud müştəriləri niyə eyni RFC 1918 xüsusi ünvan blokunu seçə bilər?",
+    "options": {
+      "A": "Bu bloklar yalnız bir bulud provayderində istifadə olunur",
+      "B": "Hər xüsusi ünvan avtomatik public ünvana çevrilir",
+      "C": "Bu blokdakı ünvanlar bütün internetdə unikaldır",
+      "D": "Private ünvanlar yalnız öz virtual şəbəkəsinin kontekstində mənalıdır",
+      "E": "DNS bu müştəriləri avtomatik peering ilə birləşdirir"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 295,
+    "topic": 7,
+    "number": 25,
+    "question": "Yük balanslaşdırıcı adi halda sorğuları hansı hədəflərə göndərir?",
+    "options": {
+      "A": "Yalnız public IP-si olan hədəflərə",
+      "B": "Yalnız DNS TTL-i ən uzun olan hədəfə",
+      "C": "Yalnız ən çox xəta qaytaran hədəfə",
+      "D": "Yalnız ən son yaradılan hədəfə",
+      "E": "Sağlam hədəflərə"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 296,
+    "topic": 7,
+    "number": 26,
+    "question": "Private endpoint yaradılması idarə olunan xidmətin yerləşməsini necə dəyişir?",
+    "options": {
+      "A": "Private endpoint xidmətin public girişini mütləq açıq saxlayır",
+      "B": "Private endpoint müştərinin bütün virtual şəbəkələrini birləşdirir",
+      "C": "Xidmətin özünü tamamilə müştərinin subnet-inə köçürür",
+      "D": "Private endpoint yaradıldıqda DNS sazlaması lazım deyil",
+      "E": "Xidmət kənarda qalır, virtual şəbəkədə ona private ünvanlı interfeys yaranır, DNS sazlanmalıdır"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 297,
+    "topic": 7,
+    "number": 27,
+    "question": "Mühazirədə AWS NAT gateway üçün ödənişin hansı iki amildən asılı olduğu göstərilir?",
+    "options": {
+      "A": "İşləmə vaxtı və emal olunan məlumat həcmi",
+      "B": "Yalnız yaradılma zamanı birdəfəlik haqq",
+      "C": "Yalnız emal olunan məlumat həcmi, işləmə vaxtı yox",
+      "D": "Yalnız işləmə vaxtı, məlumat həcmi yox",
+      "E": "Yalnız internetdən başlanan bağlantıların sayı"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 298,
+    "topic": 7,
+    "number": 28,
+    "question": "Docker-in --internal şəbəkəsi hansı bulud seqmentinin modelinə daha yaxındır?",
+    "options": {
+      "A": "NAT ilə internetə çıxan tətbiq subnet-inə",
+      "B": "İnternetə marşrutu olmayan məlumat subnet-inə",
+      "C": "İki ofisi internet üzərindən birləşdirən VPN-ə",
+      "D": "Regionlar arasında xüsusi fiziki bağlantıya",
+      "E": "İnternetə açıq yük balanslaşdırıcının giriş seqmentinə"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 299,
+    "topic": 7,
+    "number": 29,
+    "question": "İdarə olunan şəbəkə xidmətini VM üzərində özünüz qurduqda hansı işlər sizin məsuliyyətinizə keçir?",
+    "options": {
+      "A": "Yalnız haqqın ödənməsi, VM-in idarə edilməsi yox",
+      "B": "Yalnız ilk quraşdırma, sonrakı yamaqlar yox",
+      "C": "Yalnız monitorinq, yüksək əlçatanlıq və yamaqlar yox",
+      "D": "Monitorinq, əlçatanlıq, yamaq və tutum",
+      "E": "Yalnız konfiqurasiya, tutum və monitorinq yox"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 300,
+    "topic": 7,
+    "number": 30,
+    "question": "Stateless süzgəc paketləri necə yoxlayır?",
+    "options": {
+      "A": "Yalnız TLS sertifikatına görə",
+      "B": "Yalnız bağlantının sonunda",
+      "C": "Hər paketi ayrıca yoxlayır",
+      "D": "Yalnız ilk paketi yoxlayaraq",
+      "E": "Yalnız HTTP URL yoluna görə"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 301,
+    "topic": 7,
+    "number": 31,
+    "question": "Stateful süzgəci fərqləndirən əsas xüsusiyyət nədir?",
+    "options": {
+      "A": "Hər paketə yeni public IP verməsi",
+      "B": "Bağlantını yadda saxlayır",
+      "C": "Yalnız DNS adlarını saxlaması",
+      "D": "Yalnız HTTP məzmununu yoxlaması",
+      "E": "Bütün trafiki şifrələməsi"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 302,
+    "topic": 7,
+    "number": 32,
+    "question": "Kubernetes NetworkPolicy qaydalarının tətbiq olunması üçün hansı şərt lazımdır?",
+    "options": {
+      "A": "Yalnız Pod-ların ayrı namespace-də olması kifayətdir",
+      "B": "NetworkPolicy-ni dəstəkləyən şəbəkə plagininin olması",
+      "C": "Yalnız node səviyyəsində bulud süzgəci kifayətdir",
+      "D": "Yalnız Service seçicisinin düzgün olması kifayətdir",
+      "E": "Yalnız NetworkPolicy manifestinin yazılması kifayətdir"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 303,
+    "topic": 7,
+    "number": 33,
+    "question": "Private endpoint yaradılıb, amma xidmətin adı virtual şəbəkə daxilində hələ public ünvana açılır. Hansı sazlama birbaşa bu problemi həll etməyə yönəlir?",
+    "options": {
+      "A": "Yalnız public DNS cavabının TTL-ini artırmaq",
+      "B": "Xidmətin public IP-sini daxili konfiqurasiyaya yazmaq",
+      "C": "Ad həllini dəyişmədən yalnız public girişi bağlamaq",
+      "D": "Private DNS zonasını virtual şəbəkəyə əlaqələndirmək",
+      "E": "Private endpoint-i silib public DNS qeydini saxlamaq"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 304,
+    "topic": 7,
+    "number": 34,
+    "question": "Daxili (internal) yük balanslaşdırıcı əsasən necə istifadə olunur?",
+    "options": {
+      "A": "Yalnız internetdən birbaşa gələn sorğular üçün",
+      "B": "Yalnız xarici istifadəçilərin giriş ünvanı kimi",
+      "C": "Daxili servis adlarının DNS qeydlərini saxlamaq üçün",
+      "D": "Daxili servislər arası trafik üçün",
+      "E": "Yalnız public ünvanlı hədəflər arasında trafik üçün"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 305,
+    "topic": 7,
+    "number": 35,
+    "question": "Bazaya yalnız tətbiq rolundakı resurslar müəyyən portla qoşulmalıdır. Ən az imtiyaz prinsipinə hansı qayda uyğundur?",
+    "options": {
+      "A": "Tətbiq qrupundan bazanın bütün portlarına icazə",
+      "B": "Virtual şəbəkədəki bütün qruplardan bütün portlara icazə",
+      "C": "Tətbiq qrupundan yalnız lazım olan porta icazə",
+      "D": "Yalnız public IP-si olan resurslardan bütün portlara icazə",
+      "E": "Bütün mənbələrdən tələb olunan baza portuna icazə"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 306,
+    "topic": 7,
+    "number": 36,
+    "question": "Marşrut cədvəlinin əsas vəzifəsi nədir?",
+    "options": {
+      "A": "İstifadəçinin parolunu yoxlamaq",
+      "B": "Subnet-dən çıxan paketin növbəti addımını seçmək",
+      "C": "Domen adını qeydiyyatdan keçirmək",
+      "D": "Tətbiqin sağlamlığını dövri yoxlamaq",
+      "E": "HTTP sorğusunu şifrələmək"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 307,
+    "topic": 7,
+    "number": 37,
+    "question": "Sıfır etibar prinsipinə görə private subnet-də yerləşən resurs barədə hansı fikir doğrudur?",
+    "options": {
+      "A": "Private subnet-dəki resurs avtomatik etibarlı sayılır",
+      "B": "Private subnet-də olduğu üçün identifikasiya tələb olunmur",
+      "C": "Private subnet bağlantının şifrələnməsini əvəz edir",
+      "D": "Private subnet etibar vermir, identifikasiya və şifrələmə ayrıca lazımdır",
+      "E": "Private subnet-dəki axınları qeydə almaq lazım deyil"
+    },
+    "correct": "D"
+  },
+  {
+    "id": 308,
+    "topic": 7,
+    "number": 38,
+    "question": "Subnet virtual şəbəkəyə münasibətdə nədir?",
+    "options": {
+      "A": "Virtual şəbəkənin ünvan sahəsinin bir hissəsi",
+      "B": "Virtual şəbəkədə adları həll edən xidmət",
+      "C": "Virtual şəbəkənin internet çıxış şlüzü",
+      "D": "Virtual şəbəkənin trafik süzgəci",
+      "E": "İki virtual şəbəkəni birləşdirən tunel"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 309,
+    "topic": 7,
+    "number": 39,
+    "question": "AWS Direct Connect və ya Azure ExpressRoute ilə xüsusi bağlantı qurulub. Trafikin şifrələnməsi də tələb olunursa, nə etmək lazımdır?",
+    "options": {
+      "A": "Peering qurmaqla xəttin şifrələndiyini qəbul etmək",
+      "B": "Xüsusi xətti avtomatik şifrələnmiş hesab etmək",
+      "C": "Yalnız port icazəsini daraldıb şifrələməni qurulmuş saymaq",
+      "D": "Private ünvanların şifrələməni əvəz etdiyini qəbul etmək",
+      "E": "Şifrələməni ayrıca qurmaq (IPsec VPN və ya MACsec)"
+    },
+    "correct": "E"
+  },
+  {
+    "id": 310,
+    "topic": 7,
+    "number": 40,
+    "question": "Ofislə bulud arasında böyük həcmli trafik və sabit gecikmə tələb olunur. Hansı bağlantı növü bu tələbə daha uyğundur?",
+    "options": {
+      "A": "İnternetdən keçən adi site-to-site VPN",
+      "B": "Şirkət şəbəkəsi əvəzinə iki bulud şəbəkəsinin peering-i",
+      "C": "Xüsusi bağlantı (Direct Connect, ExpressRoute)",
+      "D": "İnternetdə public endpoint-ə birbaşa müraciət",
+      "E": "Yalnız fərdi istifadəçi üçün point-to-site VPN"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 311,
+    "topic": 7,
+    "number": 41,
+    "question": "Axın loglarında əsasən hansı məlumat qeydə alınır?",
+    "options": {
+      "A": "Paketlərin şifrədən açılmış tam məzmunu",
+      "B": "HTTP sorğusunun tam məzmunu",
+      "C": "Ünvan, port, protokol və qərar",
+      "D": "Verilənlər bazasına göndərilən SQL əmrləri",
+      "E": "İstifadəçinin tətbiqdə icra etdiyi əməliyyatlar"
+    },
+    "correct": "C"
+  },
+  {
+    "id": 312,
+    "topic": 7,
+    "number": 42,
+    "question": "İki zonanın private subnet-ləri birinci zonadakı tək zonal NAT-dan istifadə edir. Birinci zona itərsə, ikinci zonadakı sağlam node-lara nə olar?",
+    "options": {
+      "A": "Sağlam node-lar olduqda çıxış həmişə davam edər",
+      "B": "İkinci zonanın sağlam node-ları da çıxışı itirir",
+      "C": "İkinci zona NAT-dan asılı olmadan çıxışı saxlayar",
+      "D": "Yalnız birinci zonanın node-ları çıxışı itirər",
+      "E": "NAT ehtiyat qurulmadan ikinci zonada avtomatik yaranar"
+    },
+    "correct": "B"
+  },
+  {
+    "id": 313,
+    "topic": 7,
+    "number": 43,
+    "question": "L7 yük balanslaşdırıcı HTTPS sorğusunun URL yolunu oxumaq üçün TLS bağlantısını niyə çox vaxt özündə bitirir?",
+    "options": {
+      "A": "HTTPS şifrəli olduğundan URL yolunu oxumaq üçün TLS-i özündə açır",
+      "B": "Şifrəli HTTP məzmununu açarsız oxumaq mümkündür",
+      "C": "HTTPS olduqda URL yolu ümumiyyətlə ötürülmür",
+      "D": "TLS istifadə ediləndə yalnız cavab şifrələnir",
+      "E": "URL yolu həmişə açıq TCP başlığında ötürülür"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 314,
+    "topic": 7,
+    "number": 44,
+    "question": "A ilə B və B ilə C virtual şəbəkələri arasında peering var. A-nın B vasitəsilə C-yə çata bilməməsi hansı xüsusiyyətlə izah olunur?",
+    "options": {
+      "A": "Peering tranzitiv deyil",
+      "B": "A və C eyni private ünvanları seçsə, əlaqə avtomatik açılır",
+      "C": "Peering hər iki əlaqəni avtomatik A–C əlaqəsinə çevirir",
+      "D": "Peering qurulanda bütün tərəflərin süzgəcləri ləğv olunur",
+      "E": "B ilə peering olan şəbəkələr həmişə bir şəbəkə sayılır"
+    },
+    "correct": "A"
+  },
+  {
+    "id": 315,
+    "topic": 7,
+    "number": 45,
+    "question": "HTTP sorğularını URL yoluna görə iki ayrı servisə yönəltmək lazımdır. Hansı seçim uyğundur?",
+    "options": {
+      "A": "Yalnız L4 yük balanslaşdırıcı",
+      "B": "L7 yük balanslaşdırıcı",
+      "C": "Subnet səviyyəli stateless NACL",
+      "D": "Çıxış NAT şlüzü",
+      "E": "Site-to-site VPN şlüzü Mövzu 7 — cavab açarı 1-D2-D3-A4-A5-C6-B7-D8-B9-E10-C11-A12-D13-A14-E15-E 16-C17-C18-E19-E20-A21-C22-B23-E24-D25-E26-E27-A28-B29-D30-C 31-B32-B33-D34-D35-C36-B37-D38-A39-E40-C41-C42-B43-A44-A45-B"
+    },
+    "correct": "B"
+  }
+]

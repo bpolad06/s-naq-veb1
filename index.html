@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bulud Texnologiyaları — Sınaq İmtahanı</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="header-title">
+        <span>☁️</span>
+        <span>Bulud Texnologiyaları — Sınaq</span>
+      </div>
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="btn-icon" title="Temanı dəyiş">
+          <span id="themeIcon">🌙</span>
+          <span id="themeText">Tünd rejim</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Əsas tətbiq sahəsi -->
+  <main class="main-wrapper" id="app">
+    <!-- UI dinamik render ediləcək -->
+  </main>
+
+  <!-- Modal pəncərəsi (təsdiqləmələr üçün) -->
+  <div id="modalContainer"></div>
+
+  <!-- Suallar bazası (offline, server-tələb etmir) -->
+  <script src="questions.js"></script>
+  <!-- Əsas məntiq -->
+  <script src="app.js"></script>
+</body>
+</html>
